@@ -1,0 +1,6 @@
+<meta>
+	<script type="client" src="client.lua" cache='false' />
+	<script type="server" src="server.lua" cache='false' />
+	<file src = "chuj.mp3"/>
+	<file src = "BoomLoop.mp3"/>
+</meta> 

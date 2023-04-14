@@ -1,0 +1,10 @@
+<meta>
+    <info type="map" version="1.0.0"></info>
+    <map src="mapka.map" dimension="0"></map>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+    <script src="shared.lua" type="shared" cache="false"></script>
+    <script src="client.lua" type="client" cache="false"></script>
+    <script src="server.lua" type="server"></script>
+	<file src = "a51_jetdoor.col"/>
+</meta>

@@ -1,0 +1,20 @@
+<meta>
+    <info author="Johanez" name="darkdayz.pl - Font" />
+
+    <script src="client.lua" type="client" cache="false" />
+
+    <export function="GetFont" type="client"/>
+    <export function="dgsGetFontFunc" type="client"/>
+
+    <file src="Roboto-Black.ttf"/>
+    <file src="Roboto-Bold.ttf"/>
+    <file src="Roboto-BlackItalic.ttf"/>
+    <file src="Roboto-BoldItalic.ttf"/>
+    <file src="Roboto-Italic.ttf"/>
+    <file src="Roboto-Light.ttf"/>
+    <file src="Roboto-LightItalic.ttf"/>
+    <file src="Roboto-Medium.ttf"/>
+    <file src="Roboto-MediumItalic.ttf"/>
+    <file src="Roboto-Regular.ttf"/>
+    <file src="Roboto-ThinItalic.ttf"/>
+</meta>

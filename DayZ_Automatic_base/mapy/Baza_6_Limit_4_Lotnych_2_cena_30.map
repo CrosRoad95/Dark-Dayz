@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (drydock1_SFSe) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="2083" posY="2158.2002" posZ="21.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="2068.9004" posY="2173" posZ="21.8" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (drydock1_SFSe) (5)" breakable="true" interior="0" collisions="true" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="2083.2002" posY="2187.1006" posZ="21.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe) (7)" breakable="true" interior="0" collisions="true" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="2083.2" posY="2158" posZ="21" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe) (8)" breakable="true" interior="0" collisions="true" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="2083.1001" posY="2169.2" posZ="21" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe) (9)" breakable="true" interior="0" collisions="true" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="2083.1001" posY="2175.8999" posZ="21.1" rotX="90" rotY="0" rotZ="0"></object>
+</map>

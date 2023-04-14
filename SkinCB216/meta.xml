@@ -1,0 +1,6 @@
+<meta>
+	<script type="client" src="replace.lua" />
+	<script src="skin.lua"/>
+	<file src="1.dff"/>
+	<file src="1.txd"/>
+</meta>

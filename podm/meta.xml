@@ -1,0 +1,6 @@
+<meta>
+<script src="client.lua" type="client"/>
+<file src="ambulan.txd" type="client"/>
+<file src="ambulan.dff" type="client"/>
+</meta> 
+

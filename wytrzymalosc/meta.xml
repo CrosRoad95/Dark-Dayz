@@ -1,0 +1,7 @@
+<meta>
+	<info name="Panel_Logowania" version="0.5b" type="script" author="WelCome/Gpla" description="Kopiowanie i rozpowszechnianie tego skryptu bez mojej wiedzy jest zabronione !"/>
+	
+	<script src="server.lua"/>
+	<script src="client.lua" type="client"/>
+	<oop>true</oop>
+</meta>

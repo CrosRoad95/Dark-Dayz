@@ -1,0 +1,4 @@
+<meta>
+    <info author="Tekken" version="1.0" type="script" name="MTA:DayZ - Vehicle Manager"/>
+    <script src="server.lua" type="server" />
+</meta>

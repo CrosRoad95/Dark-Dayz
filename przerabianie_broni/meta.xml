@@ -1,0 +1,6 @@
+<meta>
+    <info type="Crafting weapon parts" version="1.0.0"></info>
+    <script src="s.lua" type="server"></script>
+    <script src="c.lua" type="client" cache="false"></script>
+	<file src = "font.ttf"/>
+</meta>

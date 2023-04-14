@@ -1,0 +1,6 @@
+<meta>
+    <info author="Nesty" type="script" name="[ FG-DayZ ] System logów" version="1.0" />
+
+    <script src = "fg_system_logs.lua" type = "server" />
+    <export function = "saveLogServer" type="server" />
+</meta>

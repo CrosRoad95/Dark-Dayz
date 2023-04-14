@@ -1,0 +1,6 @@
+<meta>
+	<script src="replace.lua" type="client" cache="false"/>
+	<file src="sandbag.txd" />
+    <file src="sandbag.dff" />
+	<file src="sandbag.col" />
+</meta>

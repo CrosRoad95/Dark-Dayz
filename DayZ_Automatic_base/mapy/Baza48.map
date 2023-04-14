@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+    <object id="object (drydock1_SFSe01) (2)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="2064" posY="-1922" posZ="16.5" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (drydock1_SFSe01) (3)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="2070.1001" posY="-1915.8" posZ="16.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe01) (4)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="2070.1001" posY="-1903.3" posZ="16.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe) (1)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="2055.19995" posY="-1922.09998" posZ="17" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe) (2)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="2054.8" posY="-1910.1" posZ="17" rotX="90" rotY="0" rotZ="0"></object>
+</map>

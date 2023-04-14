@@ -1,0 +1,28 @@
+<meta>
+	<info author="Johanez" name="darkdayz.pl - Admin system & Suszarka by Korea"/>
+
+    <script src="s_commands.lua" type="server"/>
+    <script src="server.lua" type="server"/>
+
+	<script src="c_commands.lua" type="client"  cache = "false"/>
+	<script src="client.lua" type="client" cache="false"/>
+	<script src="aroom_client.lua" type="client" cache="false"/>
+	<script src="fly.lua" type="client" cache="false"/>
+
+	<script src="languages/languages_s.lua" type="server"/>
+	<script src="languages/languages_c.lua" type="client" cache="false"/>
+
+	<script src='suszarka/s.lua' type='server'/>
+	<script src='suszarka/c.lua' type='client' cache='false'/>
+	<file src = "suszarka/suszarka.txd"/>
+	<file src = "suszarka/suszarka.dff"/>
+	<file src = "suszarka/images/fix.png"/>
+	<file src = "suszarka/images/flip.png"/>
+	<file src = "suszarka/images/montaz.png"/>
+	<file src = "suszarka/images/delete.png"/>
+	<file src = "suszarka/images/warp.png"/>
+	<file src = "suszarka/images/move.png"/>
+
+    <export function="TryAgainCommand" type="server"/>
+    <export function="getDarkDayZPlayer" type="server"/>
+</meta>

@@ -1,0 +1,5 @@
+<meta>
+	<script src="replace.lua" type="client" cache="false"/>
+	<file src="podloga.dff"/>
+	<file src="podloga.col"/>
+</meta>

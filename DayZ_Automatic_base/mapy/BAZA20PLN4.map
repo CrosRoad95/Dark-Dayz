@@ -1,0 +1,22 @@
+<map edf:definitions="editor_main">
+    <object id="object (a51_jetdoor) (1)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2373.8" posY="1647.3" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (2)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2373.8" posY="1656.3" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (3)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2373.8" posY="1665.3" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (4)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2373.8" posY="1674.3" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (5)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2373.8" posY="1683.3" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (6)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2364.8" posY="1647.3" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (7)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2364.8" posY="1656.3" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (8)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2364.8" posY="1665.3" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (9)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2364.8" posY="1674.3" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (10)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2364.8" posY="1683.3" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (11)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2355.8" posY="1677.8" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (12)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2355.8" posY="1668.8" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (13)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2355.8" posY="1659.8" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (14)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2355.8" posY="1650.8" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (15)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2356.2" posY="1642.3" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (16)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2376.8" posY="1642.1" posZ="13.4" rotX="90" rotY="352.875" rotZ="97.125"></object>
+    <object id="object (a51_jetdoor) (17)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2376.8" posY="1651.1" posZ="13.4" rotX="90" rotY="352.87" rotZ="97.125"></object>
+    <object id="object (a51_jetdoor) (18)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2376.8" posY="1660.1" posZ="13.4" rotX="90" rotY="352.87" rotZ="97.125"></object>
+    <object id="object (a51_jetdoor) (19)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="2377.2" posY="1678.8" posZ="13.4" rotX="90" rotY="352.87" rotZ="97.125"></object>
+    <object id="object (impexp_door) (1)" breakable="true" interior="0" alpha="255" model="3075" doublesided="false" scale="1" dimension="0" posX="2376.8999" posY="1669.1" posZ="18.5" rotX="43.747" rotY="105.93" rotZ="347.57"></object>
+</map>

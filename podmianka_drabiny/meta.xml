@@ -1,0 +1,5 @@
+<meta>
+	<file src="ladder.dff" />
+	<file src="ladder.col" />
+	<script src="test_client.lua" type="client"/>
+</meta>

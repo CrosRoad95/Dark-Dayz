@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (rubbled01_SFS) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="10984" scale="1" doublesided="false" collisions="true" posX="-1172.2" posY="-2858.7" posZ="67.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (helix_barrier) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="981" scale="1" doublesided="false" collisions="true" posX="-1188.9" posY="-2861.2" posZ="67.4" rotX="0" rotY="0.25" rotZ="270.75"></object>
+    <object id="object (lasntrk3) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="3569" scale="1" doublesided="false" collisions="true" posX="-1168.7" posY="-2868.8" posZ="69.00003" rotX="0" rotY="0" rotZ="283.75"></object>
+    <object id="object (CJ_SKIP_Rubbish) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="1358" scale="1" doublesided="false" collisions="true" posX="-1161.4" posY="-2849.1001" posZ="67.9" rotX="0" rotY="0" rotZ="334"></object>
+    <object id="object (des_oldwattwr_) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="3252" scale="1" doublesided="false" collisions="true" posX="-1206" posY="-2845.6001" posZ="67.5" rotX="0" rotY="7.75" rotZ="303.75"></object>
+    <object id="object (RACK2) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="925" scale="1" doublesided="false" collisions="true" posX="-1163.6" posY="-2864.8999" posZ="67.8" rotX="0" rotY="0" rotZ="194.75"></object>
+</map>

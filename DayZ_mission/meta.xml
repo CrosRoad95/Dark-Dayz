@@ -1,0 +1,42 @@
+<meta>
+    <info author="Johanez07" name="darkdayz.pl - npc missions"/>
+
+    <script src="core_server.lua" type="server" />
+    <script src="core_client.lua" type="client" cache="false"/>
+
+    <script src="conv_gui.lua" type="client" cache="false"/>
+    <script src="missions_gui.lua" type="client" cache="false"/>
+
+    <script src="find_box_server.lua" type="server"/>
+    <script src="find_box_client.lua" type="client" cache="false"/>
+
+    <script src="additional_s.lua" type="server" />
+    <script src="additional_c.lua" type="client" cache="false"/>
+
+    <script src="languages_s.lua" type="server"/>
+    <script src="languages_c.lua" type="client" cache="false"/>
+
+
+    <export function="getNpcFromActConv" type="client" />
+    <export function="addMissionProgress" type="server" />
+
+
+    <file src="conv_background.png" />
+
+    <file src="textures/buttons/button1_1.png" />
+    <file src="textures/buttons/button1_2.png" />
+    <file src="textures/buttons/button1_3.png" />
+    <file src="textures/buttons/button2_1.png" />
+    <file src="textures/buttons/button2_2.png" />
+    <file src="textures/buttons/button2_3.png" />
+    <file src="textures/buttons/button3_1.png" />
+    <file src="textures/buttons/button3_2.png" />
+    <file src="textures/buttons/button3_3.png" />
+
+    <file src="textures/cat/kill_players.png" />
+    <file src="textures/cat/kill_zombies.png" />
+    <file src="textures/cat/advanced_find.png" />
+    <file src="textures/cat/find.png" />
+
+    <file src="textures/others/line.png" />
+</meta>

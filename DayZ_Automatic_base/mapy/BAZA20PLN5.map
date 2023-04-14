@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (des_quarrygate) (1)" breakable="true" interior="0" alpha="255" model="3049" doublesided="false" scale="1" dimension="0" posX="1411.5" posY="-1370.1" posZ="9.6" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (des_quarrygate) (2)" breakable="true" interior="0" alpha="255" model="3049" doublesided="false" scale="1" dimension="0" posX="1407.1" posY="-1370.1" posZ="9.6" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (des_quarrygate) (3)" breakable="true" interior="0" alpha="255" model="3049" doublesided="false" scale="1" dimension="0" posX="1402.8" posY="-1370" posZ="9.6" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (des_quarrygate) (4)" breakable="true" interior="0" alpha="255" model="3049" doublesided="false" scale="1" dimension="0" posX="1402.8" posY="-1370" posZ="11.4" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (des_quarrygate) (5)" breakable="true" interior="0" alpha="255" model="3049" doublesided="false" scale="1" dimension="0" posX="1407.2" posY="-1370" posZ="11.4" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (des_quarrygate) (6)" breakable="true" interior="0" alpha="255" model="3049" doublesided="false" scale="1" dimension="0" posX="1411.5" posY="-1370" posZ="11.4" rotX="0" rotY="0" rotZ="179.995"></object>
+</map>

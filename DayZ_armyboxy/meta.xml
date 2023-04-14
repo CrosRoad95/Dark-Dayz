@@ -1,0 +1,4 @@
+<meta uid-last="4035">
+    <info author="Korea" description="MTA:DayZ - System armyboxów" version="1.0" type="script" />
+    <script src="s.lua" type="server" />
+</meta>

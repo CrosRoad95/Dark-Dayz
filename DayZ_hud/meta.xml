@@ -1,0 +1,33 @@
+<meta>
+    <info author="Korea, Johanez07" description="darkdayz.pl - Weapon Hud" version="2.0" type="script" />
+	<script src='c.lua' type='client' cache='false'/>
+
+	<file src="images/ak-47.png"/>
+	<file src="images/kosa.png"/>
+	<file src="images/awp.png"/>
+	<file src="images/PKP.png"/>
+	<file src="images/mg34.png"/>
+	<file src="images/m4.png"/>
+	<file src="images/g36c.png"/>
+	<file src="images/knife.png"/>
+	<file src="images/lopata.png"/>
+	<file src="images/pila.png"/>
+	<file src="images/grenade.png"/>
+	<file src="images/winchester.png"/>
+	<file src="images/mp5.png"/>
+	<file src="images/pdw.png"/>
+	<file src="images/bat.png"/>
+	<file src="images/hatchet.png"/>
+	<file src="images/parachute.png"/>
+	<file src="images/spaz.png"/>
+	<file src="images/Barrett.png"/>
+	<file src="images/aa12.png"/>
+	<file src="images/suszara.png"/>
+	<file src="images/m9sd.png"/>
+	<file src="images/leenfield.png"/>
+	<file src="images/M1119.png"/>
+	<file src="images/Spray.png"/>
+	<file src="images/dragunov.png"/>
+	<file src="images/scar.png"/>
+	<file src="images/m4a1.png"/>
+</meta>

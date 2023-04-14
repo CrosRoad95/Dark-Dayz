@@ -1,0 +1,12 @@
+<meta>
+    <info author="Nesty" name="[ FG-DayZ ] System Notify" version="1.0" type="script" />
+
+    <script src="fg_system_notification_player.lua" type="client" cache = "false"/>
+	<script src="fg_system_notification_client.lua" type="client" cache = "false" />
+    <script src="fg_system_notification_server.lua" type="server" cache = "false" />
+    <export function="DrawNotification" type="server"/>
+	<export function="DrawNotification" type="client"/>
+	<file src = "img/menu.png" />
+
+    <file src="3.wav"/>
+</meta>

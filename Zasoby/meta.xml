@@ -1,0 +1,6 @@
+<meta>
+    <info author="Korea" description="MTA:DayZ - Vehicle" version="1.0" type="script" />
+	<script src='c.lua' type='client' cache='false'/>
+	<script src='s.lua' type='server'/>
+	<download_priority_group>1</download_priority_group> 
+</meta>

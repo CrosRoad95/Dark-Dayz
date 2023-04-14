@@ -1,0 +1,8 @@
+<meta>
+    <info author="Johanez07" name="darkdayz.pl - ranks system"/>
+    <script src="client.lua" type="client" cache="false"/>
+    <script src="server.lua" type="server"/>
+
+    <export function="getRankFullName" type="server"/>
+	<export function="getRankFullName" type="client"/>
+</meta>

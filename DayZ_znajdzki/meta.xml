@@ -1,0 +1,7 @@
+<meta>
+    <info author="Korea" description="SA-DayZ | Znajdzki" version="1.0" type="script" />
+	<file src="font.ttf"/>
+	<script src='server.lua' type='server'/>
+	<script src='client.lua' type='client' cache="false"/>
+	<export function = "getAdditionalWeapons" type="server"/>
+</meta>

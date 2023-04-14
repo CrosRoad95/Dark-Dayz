@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+    <object id="object (drydock1_SFSe01) (2)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="1183.4" posY="-1806.3" posZ="21.5" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (drydock1_SFSe01) (4)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="1183.4" posY="-1787.6" posZ="16.3" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (drydock1_SFSe01) (5)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="1183.4004" posY="-1787.5996" posZ="21.5" rotX="0" rotY="0" rotZ="90"></object>
+	<removeWorldObject id="removeWorldObject (tamomotel1) (1)" radius="51.988407" interior="0" model="7596" lodModel="7717" posX="2082.7109" posY="2171.6016" posZ="14.27344" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+	<removeWorldObject id="removeWorldObject (gingersign1) (1)" radius="11.688001" interior="0" model="7597" lodModel="0" posX="2103.2656" posY="2150.1016" posZ="26.25781" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+	<removeWorldObject id="removeWorldObject (vegasaircon1) (1)" radius="5.655848" interior="0" model="3470" lodModel="0" posX="2101.9766" posY="2146.5703" posZ="13.82813" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+
+</map>

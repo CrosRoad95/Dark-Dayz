@@ -1,0 +1,16 @@
+<map edf:definitions="editor_main">
+    <object id="object (lasnfltrail) (1)" breakable="true" interior="0" alpha="255" model="3567" doublesided="true" scale="1" dimension="0" posX="-715.70001" posY="2068.7" posZ="60.1" rotX="0" rotY="0" rotZ="92"></object>
+    <object id="object (lasntrk2) (1)" breakable="true" interior="0" alpha="255" model="3568" doublesided="true" scale="1" dimension="0" posX="-736.79999" posY="2069.1001" posZ="61.7" rotX="0" rotY="0" rotZ="130"></object>
+    <object id="object (lasdkrt1_LA01) (1)" breakable="true" interior="0" alpha="255" model="3565" doublesided="true" scale="1" dimension="0" posX="-738.29999" posY="2060.3" posZ="60.7" rotX="0" rotY="0" rotZ="355"></object>
+    <object id="object (lasdkrt3) (1)" breakable="true" interior="0" alpha="255" model="3571" doublesided="true" scale="1" dimension="0" posX="-750.20001" posY="2058" posZ="60.7" rotX="0" rotY="0" rotZ="14"></object>
+    <object id="object (lasdkrt3) (2)" breakable="true" interior="0" alpha="255" model="3571" doublesided="true" scale="1" dimension="0" posX="-711.40002" posY="2068.8999" posZ="62.3" rotX="0" rotY="0" rotZ="2"></object>
+    <object id="object (lasdkrt2) (1)" breakable="true" interior="0" alpha="255" model="3570" doublesided="true" scale="1" dimension="0" posX="-720.20001" posY="2068.6001" posZ="62.3" rotX="0" rotY="0" rotZ="2"></object>
+    <object id="object (lasntrk1) (1)" breakable="true" interior="0" alpha="255" model="3566" doublesided="true" scale="1" dimension="0" posX="-735.40002" posY="2052.8999" posZ="61.7" rotX="0" rotY="0" rotZ="236"></object>
+    <object id="object (lasntrk3) (1)" breakable="true" interior="0" alpha="255" model="3569" doublesided="false" scale="1" dimension="0" posX="-761.79999" posY="2062.7" posZ="61.8" rotX="0" rotY="0" rotZ="104"></object>
+    <object id="object (lasdkrt4) (1)" breakable="true" interior="0" alpha="255" model="3572" doublesided="true" scale="1" dimension="0" posX="-759.59998" posY="2056.1001" posZ="60.7" rotX="0" rotY="0" rotZ="5.25"></object>
+    <object id="object (PROC_RUBBISH_5) (1)" breakable="true" interior="0" alpha="255" model="2673" doublesided="true" scale="1" dimension="0" posX="-743.59998" posY="2046.4" posZ="59.5" rotX="0" rotY="0" rotZ="338"></object>
+    <object id="object (PROC_RUBBISH_5) (2)" breakable="true" interior="0" alpha="255" model="2673" doublesided="true" scale="1" dimension="0" posX="-728.20001" posY="2074.6001" posZ="59.5" rotX="0" rotY="0" rotZ="298"></object>
+    <object id="object (PROC_RUBBISH_6) (1)" breakable="true" interior="0" alpha="255" model="2675" doublesided="true" scale="1" dimension="0" posX="-732.20001" posY="2061.6001" posZ="59.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PROC_RUBBISH_5) (3)" breakable="true" interior="0" alpha="255" model="2673" doublesided="true" scale="1" dimension="0" posX="-739.5" posY="2072.7002" posZ="59.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PROC_RUBBISH_1) (1)" breakable="true" interior="0" alpha="255" model="2670" doublesided="true" scale="1" dimension="0" posX="-735.40002" posY="2047.5" posZ="59.5" rotX="0" rotY="0" rotZ="344"></object>
+</map>

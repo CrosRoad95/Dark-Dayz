@@ -1,0 +1,5 @@
+<meta>
+    <script src="c.lua" type="client"></script>
+	<file src='nemesis.txd'/>
+	<file src='nemesis.dff'/>
+</meta>

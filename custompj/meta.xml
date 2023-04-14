@@ -1,0 +1,9 @@
+<meta>
+	
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" />
+	<file src="paintjob.fx" type="client" />
+		<file src="img.png" />
+		<file src="img2.png" />
+	<export function ="loadpj" type='server'/>
+</meta>

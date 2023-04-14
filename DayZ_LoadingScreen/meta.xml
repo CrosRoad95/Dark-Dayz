@@ -1,0 +1,20 @@
+<meta>
+    <info author="Johanez" name="darkdayz.pl - Loading Screen" />
+
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.lua" type="server"/>
+
+    <file src="images/1.jpg"/>
+    <file src="images/2.jpg"/>
+    <file src="images/3.jpg"/>
+    <file src="images/4.jpg"/>
+    <file src="images/5.jpg"/>
+    <file src="images/logo.png"/>
+    <file src="images/background.png"/>
+    <file src="images/icon.png"/>
+
+    <file src="Roboto-Bold.ttf"/>
+    <file src="Roboto-Light.ttf"/>
+
+    <download_priority_group>1</download_priority_group>
+</meta>

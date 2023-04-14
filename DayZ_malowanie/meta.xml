@@ -1,0 +1,8 @@
+<meta>
+	<info author="Korea" version="1.0" name="" type="script"></info>
+	<oop>true</oop>
+	<script src="s.lua" type="server"></script>
+	
+	<script src="c.lua" type="client" cache="false"></script>
+	<export function = "setColor" type='client'/>
+</meta>

@@ -1,0 +1,82 @@
+<meta>
+    <info author="Johanez, Korea" name="darkdayz.pl - fast item bar" />
+
+    <script src = "s.lua" type = "server" />
+    <script src = "client.lua" type = "client" cache="false" />
+    <script src = "languages_c.lua" type = "client" cache="false" />
+
+    <export function="SetItemToFastBar" type="client"/>
+
+    <file src='textures/AK-47.png'/>
+    <file src='textures/Baseball Bat.png'/>
+    <file src='textures/Chainsaw.png'/>
+    <file src='textures/CZ550.png'/>
+    <file src='textures/Desert Eagle.png'/>
+    <file src='textures/Golf Club.png'/>
+    <file src='textures/Hatchet.png'/>
+    <file src='textures/Hunting Knife.png'/>
+    <file src='textures/Lee Enfield.png'/>
+    <file src='textures/M4A1-S.png'/>
+    <file src='textures/M4A1.png'/>
+    <file src='textures/M9 SD.png'/>
+    <file src='textures/M1911.png'/>   
+    <file src='textures/MP5A5.png'/>
+    <file src='textures/PDW.png'/>
+    <file src='textures/Sawn-Off Shotgun.png'/>
+    <file src='textures/SPAZ-12 Combat Shotgun.png'/>
+    <file src='textures/Winchester 1866.png'/>
+
+
+
+
+    <file src='textures/Spray.png'/>
+    <file src='textures/Parachute.png'/>
+    <file src='textures/Harvest Scythe.png'/>
+    <file src='textures/Tear Gas.png'/>
+    <file src='textures/Scar-L.png'/>
+    <file src='textures/AWP.png'/>
+    <file src='textures/SVD Dragunov.png'/>
+    <file src='textures/Barrett M107.png'/>
+    <file src='textures/G36C.png'/>
+    <file src='textures/PKP Pecheneg.png'/>
+    <file src='textures/MG-34.png'/>
+    <file src='textures/M16A4.png'/>
+    <file src='textures/AA-12.png'/>
+    <file src='textures/Water Bottle.png'/>
+    <file src='textures/Pasta Can.png'/>
+    <file src='textures/Beans Can.png'/>
+    <file src='textures/Kebab.png'/>
+    <file src='textures/Coca Cola.png'/>
+    <file src='textures/Burger.png'/>
+    <file src='textures/Pizza.png'/>
+    <file src='textures/Soda Bottle.png'/>
+    <file src='textures/Milk.png'/>
+    <file src='textures/Cooked Meat.png'/>
+    <file src='textures/Assault Pack (ACU).png'/>
+    <file src='textures/Bag.png'/>
+    <file src='textures/Alice Pack.png'/>
+    <file src='textures/Mountain Backpack.png'/>
+    <file src='textures/Czech Backpack.png'/>
+    <file src='textures/Coyote Backpack.png'/>
+    <file src='textures/Military Backpack.png'/>
+    <file src='textures/Bush.png'/>
+    <file src='textures/Safe.png'/>
+    <file src='textures/Trap.png'/>
+    <file src='textures/Bandage.png'/>
+    <file src='textures/Medic Kit.png'/>
+    <file src='textures/First Aid Kit.png'/>
+    <file src='textures/Medic Bag.png'/>
+    <file src='textures/Painkiller.png'/>
+    <file src='textures/Morphine.png'/>
+    <file src='textures/Blood Bag.png'/>
+    <file src='textures/WireFence.png'/>
+    <file src='textures/Sandbag.png'/>
+    <file src='textures/Tent.png'/>
+    <file src='textures/Empty Water Boottle.png'/>
+    <file src='textures/Silencer.png'/>
+
+
+    <file src='textures/Clothing.png'/>
+    <file src='textures/Helmet.png'/>
+   <file src='textures/Vest.png'/>
+</meta>

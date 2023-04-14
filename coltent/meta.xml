@@ -1,0 +1,5 @@
+<meta>
+	<info author="Korea" version="0.1" type="script"/>
+	<file src='tent.col'/>
+	<script src="client.lua" type="client"/>
+</meta>

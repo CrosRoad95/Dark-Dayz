@@ -1,0 +1,6 @@
+<meta>
+	<info author="uPrell" name="glue"  version="1.0" type="script"/>
+	<script src="glue.lua" type="client"  cache = "false"/>
+	<script src="glueS.lua" type="server" />
+	<export function = "getPlayersOnGlue" type = "server"/>
+</meta>

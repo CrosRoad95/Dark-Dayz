@@ -1,0 +1,7 @@
+<meta>
+    <info author="Korea" description="MTA:DayZ - Wieza" version="1.0" type="script" />
+	<script src='c.lua' type='client'/>
+	<file src = "txt.txd"/>
+	<file src = "sciana.dff"/>
+	<file src = "sciana.col"/>
+</meta>

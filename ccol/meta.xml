@@ -1,0 +1,7 @@
+<meta>
+	<script src="replace.lua" type="client" />  
+     <file src="brak.col" />
+     <file src="brak.dff" />
+     <file src="brak.txd" />
+</meta>
+

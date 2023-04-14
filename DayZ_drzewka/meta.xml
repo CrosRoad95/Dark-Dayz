@@ -1,0 +1,8 @@
+<meta>
+    <info author="Korea" description="D-DayZ | Drzewa do ścinki" version="1.0" type="script" />
+	<script src='c.lua' type='client' cache='false'/>
+	<script src='s.lua' type='server' cache='false'/>
+	<file src='sounds/Fall_down.mp3'/>
+	<file src='sounds/hit.mp3'/>
+	<file src='drzewko.png'/>
+</meta>

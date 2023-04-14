@@ -1,0 +1,26 @@
+<map edf:definitions="editor_main">
+    <object id="object (PROC_RUBBISH_2) (1)" breakable="true" interior="0" alpha="255" model="2674" doublesided="true" scale="1" dimension="0" posX="1614.5" posY="1828.3" posZ="9.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PROC_RUBBISH_2) (2)" breakable="true" interior="0" alpha="255" model="2674" doublesided="true" scale="1" dimension="0" posX="1596.8" posY="1829.2" posZ="9.9" rotX="0" rotY="0" rotZ="306"></object>
+    <object id="object (PROC_RUBBISH_2) (3)" breakable="true" interior="0" alpha="255" model="2674" doublesided="true" scale="1" dimension="0" posX="1592.8" posY="1819" posZ="9.9" rotX="0" rotY="0" rotZ="227.997"></object>
+    <object id="object (PROC_RUBBISH_2) (4)" breakable="true" interior="0" alpha="255" model="2674" doublesided="true" scale="1" dimension="0" posX="1606.7" posY="1842.3" posZ="9.9" rotX="0" rotY="0" rotZ="179.994"></object>
+    <object id="object (PROC_RUBBISH_2) (5)" breakable="true" interior="0" alpha="255" model="2674" doublesided="true" scale="1" dimension="0" posX="1619.4" posY="1841.8" posZ="9.9" rotX="0" rotY="0" rotZ="121.989"></object>
+    <object id="object (PROC_RUBBISH_2) (6)" breakable="true" interior="0" alpha="255" model="2674" doublesided="true" scale="1" dimension="0" posX="1626.7" posY="1827.7" posZ="9.9" rotX="0" rotY="0" rotZ="85.987"></object>
+    <object id="object (PROC_RUBBISH_6) (1)" breakable="true" interior="0" alpha="255" model="2675" doublesided="true" scale="1" dimension="0" posX="1623" posY="1844.7" posZ="9.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PROC_RUBBISH_6) (2)" breakable="true" interior="0" alpha="255" model="2675" doublesided="true" scale="1" dimension="0" posX="1606.6" posY="1829.3" posZ="9.9" rotX="0" rotY="0" rotZ="286"></object>
+    <object id="object (PROC_RUBBISH_6) (3)" breakable="true" interior="0" alpha="255" model="2675" doublesided="true" scale="1" dimension="0" posX="1614.7" posY="1820.2" posZ="9.9" rotX="0" rotY="0" rotZ="247.996"></object>
+    <object id="object (PROC_RUBBISH_6) (4)" breakable="true" interior="0" alpha="255" model="2675" doublesided="true" scale="1" dimension="0" posX="1591.5" posY="1824.2" posZ="9.9" rotX="0" rotY="0" rotZ="211.994"></object>
+    <object id="object (PROC_RUBBISH_6) (5)" breakable="true" interior="0" alpha="255" model="2675" doublesided="true" scale="1" dimension="0" posX="1600.6" posY="1842.8" posZ="9.9" rotX="0" rotY="0" rotZ="211.992"></object>
+    <object id="object (crates) (1)" breakable="true" interior="0" alpha="255" model="18257" doublesided="false" scale="1" dimension="0" posX="1629.2" posY="1815.1" posZ="9.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasdkrt4) (1)" breakable="true" interior="0" alpha="255" model="3572" doublesided="true" scale="1" dimension="0" posX="1613.6" posY="1846.1" posZ="11.2" rotX="0" rotY="0" rotZ="334"></object>
+    <object id="object (DockCrates1_LA) (1)" breakable="true" interior="0" alpha="255" model="3577" doublesided="true" scale="1" dimension="0" posX="1589.8" posY="1819.4" posZ="10.6" rotX="0" rotY="0" rotZ="348"></object>
+    <object id="object (lasdkrt1_LA01) (1)" breakable="true" interior="0" alpha="255" model="3565" doublesided="false" scale="1" dimension="0" posX="1587.1" posY="1831.2" posZ="11.2" rotX="0" rotY="0" rotZ="42"></object>
+    <object id="object (imoildrum4_LAS) (1)" breakable="true" interior="0" alpha="255" model="3633" doublesided="false" scale="1" dimension="0" posX="1593.4" posY="1815.9" posZ="10.3" rotX="0" rotY="0" rotZ="344"></object>
+    <object id="object (lasdkrt05) (1)" breakable="true" interior="0" alpha="255" model="3575" doublesided="false" scale="1" dimension="0" posX="1597.9" posY="1846.3" posZ="12.5" rotX="0" rotY="0" rotZ="242"></object>
+    <object id="object (ammotrn_obj) (1)" breakable="true" interior="0" alpha="255" model="3066" doublesided="false" scale="1" dimension="0" posX="1608.8" posY="1824.4" posZ="10.9" rotX="0" rotY="0" rotZ="68"></object>
+    <object id="object (CJ_FIREBIN) (1)" breakable="true" interior="0" alpha="255" model="1362" doublesided="true" scale="1" dimension="0" posX="1598.5" posY="1818.8" posZ="10.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_FIREBIN) (2)" breakable="true" interior="0" alpha="255" model="1362" doublesided="true" scale="1" dimension="0" posX="1618.3" posY="1835.4" posZ="10.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_CABLEROLL) (1)" breakable="true" interior="0" alpha="255" model="933" doublesided="false" scale="1" dimension="0" posX="1635.6" posY="1839.7" posZ="9.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_WHEELCHAIR1) (1)" breakable="true" interior="0" alpha="255" model="1369" doublesided="true" scale="1" dimension="0" posX="1618.2" posY="1816" posZ="10.4" rotX="0" rotY="0" rotZ="240"></object>
+    <object id="object (lasdkrt3) (1)" breakable="true" interior="0" alpha="255" model="3571" doublesided="true" scale="1" dimension="0" posX="1625" posY="1831" posZ="11.2" rotX="0" rotY="0" rotZ="50"></object>
+    <object id="object (Packing_carates04) (1)" breakable="true" interior="0" alpha="255" model="944" doublesided="false" scale="1" dimension="0" posX="1623.8" posY="1851.5" posZ="10.7" rotX="0" rotY="0" rotZ="316"></object>
+</map>

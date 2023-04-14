@@ -1,0 +1,6 @@
+<meta>
+	<script type="shared" src="itemy.lua" cache='false' />
+	<script type="client" src="client.lua" cache='false' />
+	<script type="server" src="server.lua" />
+	<export function = "showMeGunMenu" type = "client"/>
+</meta> 

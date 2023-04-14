@@ -1,0 +1,10 @@
+<meta>
+	<info author="autor modelu: Reiji, wykonane dla Machina. Zakazuje się używania go bez zgody autora!" />
+	
+	<script src="replace.lua" type="client" cache="false"/>
+	<file src="sredniabaza.txd"/>
+	<file src="sredniabaza.dff"/>
+	<file src="sredniabaza.col"/>
+
+	
+</meta>

@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+    <object id="object (kickcar28) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="13591" scale="1" doublesided="true" collisions="true" frozen="false" posX="246.59961" posY="1217.9004" posZ="14.9" rotX="0" rotY="0" rotZ="351.931"></object>
+    <object id="object (sw_pickupwreck01) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="12957" scale="1" doublesided="true" collisions="true" frozen="false" posX="252" posY="1221.5" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (trailer6_01) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="3172" scale="1" doublesided="false" collisions="true" frozen="false" posX="247.40039" posY="1226.5996" posZ="15" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_HOT_DOG1) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="1772" scale="1" doublesided="false" collisions="true" frozen="false" posX="253.40039" posY="1225.2002" posZ="16.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bonyrd_block1_) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="3269" scale="1" doublesided="false" collisions="true" frozen="false" posX="225" posY="1217.9004" posZ="14.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kickbus04) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="13590" scale="1" doublesided="true" collisions="true" frozen="false" posX="662.70001" posY="1894.7" posZ="5.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (des_ruin1_) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="3363" scale="1" doublesided="false" collisions="true" frozen="false" posX="670.7998" posY="1887.7002" posZ="4.4" rotX="0" rotY="0" rotZ="0"></object>
+</map>

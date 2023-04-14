@@ -1,0 +1,100 @@
+local texts_languages = {
+    ["ENG"] = {
+        ["kill_players"] = "Kill players",
+        ["kill_zombies"] = "Kill zombies",
+        ["find"] = "Find items",
+        ["item"] = "Item",
+        ["amount"] = "Amount",
+        ["prize"] = "Prize",
+        ["take_mission"] = "Take mission",
+        ["check_mission"] = "Check mission",
+        ["mission_limits"] = "Missions limits",
+        ["mission_list"] = "Missions list",
+        ["anty_spam"] = "Wait one moment!",
+        ["mission_limit"] = "You cannot undertake any more missions",
+        ["missions_complited"] = "Missions Complited",
+        ["complited"] = "Amount",
+        ["player"] = "Player",
+        ["group"] = "Group",
+        ["advanced_find"] = "Find box",
+        ["location"] = "Location",
+        ["player_take_mission_bag"] = "You taked mission item, go to the right person!",
+        ["player_taked_mission_bag"] = "You have got mission item, go to the right person!",
+        ["mission_advanced_find"] = "Go to the yellow area and look for the gray box!",
+        ["time_to_find"] = "Time to find the item",
+        ["hour"] = "hour",
+        ["hours"] = "hours",
+        ["minute"] = "minute",
+        ["minutes"] = "minutes",
+        ["second"] = "second",
+        ["seconds"] = "seconds",
+        ["new_missions_receive"] = "All of missions has been received",
+        ["new_missions_loading"] = "New missions will be create in...",
+        ["loading"] = "Loading...",
+        ["mission_canceled"] = "Mission has been canceled!",
+    },
+    ["PL"] = {
+        ["kill_players"] = "Zabij graczy",
+        ["kill_zombies"] = "Zabij zombie",
+        ["find"] = "Odszukaj przedmioty",
+        ["item"] = "Przedmiot",
+        ["amount"] = "Ilość",
+        ["prize"] = "Nagroda",
+        ["take_mission"] = "Weź misję",
+        ["check_mission"] = "Sprawdź misję",
+        ["mission_limits"] = "Limity misji",
+        ["mission_list"] = "Lista misji",
+        ["anty_spam"] = "Poczekaj chwilę!",
+        ["mission_limit"] = "Nie możesz podjąć się więcej misji",
+        ["missions_complited"] = "Ukończone Misje",
+        ["complited"] = "Ilość",
+        ["player"] = "Gracz",
+        ["group"] = "Grupa",
+        ["advanced_find"] = "Znajdź skrzynie",
+        ["location"] = "Lokalizacja",
+        ["player_taked_mission_bag"] = "Posiadasz przedmiot fabulrany, udaj się do odpowiedniej osoby!",
+        ["player_take_mission_bag"] = "Podniosłeś przedmiot fabulrany, udaj się do odpowiedniej osoby!",
+        ["mission_advanced_find"] = "Udaj się do żółtej strefy i poszukaj szarej skrzynki.",
+        ["time_to_find"] = "Czas do znalezienia itemu",
+        ["hour"] = "godzina",
+        ["hours"] = "godzin",
+        ["minute"] = "minuta",
+        ["minutes"] = "minut",
+        ["second"] = "sekunda",
+        ["seconds"] = "sekund",
+        ["new_missions_receive"] = "Wszystkie misje zostały podjęte",
+        ["new_missions_loading"] = "Nowe misje zostana stworzone za...",
+        ["loading"] = "Ładowanie...",
+        ["mission_canceled"] = "Misja została anulowana!",
+    },
+}
+
+local items_name = {
+    ["PL"] = {
+        ["Alice Pack"] = "Plecak Alice",
+        ["First Aid Kit"] = "Zestaw pierwszej pomocy",
+        ["Medic Kit"] = "Zestaw medyczny",
+        ["Large Tent"] = "Wielki namiot",
+        ["Medium Tent"] = "Średni namiot",
+        ["Tent"] = "Namiot",
+        ["Military Backpack"] = "Plecak Militarny",
+        ["Coyote Backpack"] = "Plecak Kojot",
+        ["Czech Backpack"] = "Plecak Czech",
+        ["Mountain Backpack"] = "Plecak Górski",
+        ["Water Bottle"] = "Butelka z Wodą",
+        ["Milk"] = "Mleko",
+        ["Tire"] = "Koło",
+        ["Engine"] = "Silnik",
+    },
+}
+
+function getTextLang(lang, text)
+    if texts_languages[lang][text] then return texts_languages[lang][text] end
+    return "ERROR:LANG lang:"..lang.." text:"..text
+end
+
+function getItemsName(lang, text)
+    if lang == "ENG" then return text end
+    if items_name[lang][text] then return items_name[lang][text] end
+    return "ERROR:LANG lang:"..lang.." text:"..text
+end

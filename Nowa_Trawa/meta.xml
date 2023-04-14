@@ -1,0 +1,31 @@
+<meta>
+<info name="Trees and Grass" author="#zeed" version="1.0" type="script" />
+ <!-- Trees -->
+<script src="client.lua" type="client" cache='false'/>
+<file src="gta_tree_boak.txd" type="client"/>
+<file src="gta_tree_palm.txd" type="client"/>
+<file src="gta_potplantsaa.txd" type="client"/>
+<file src="gta_proc_bush.txd" type="client"/>
+<file src="gta_tree_bevhills.txd" type="client"/>
+<file src="gtatreesh04.txd" type="client"/>
+<file src="tree3.txd" type="client"/>
+<file src="tree2.txd" type="client"/>
+<file src="tree1.txd" type="client"/>
+<file src="gta_proc_ferns.txd" type="client"/>
+<file src="gta_proc_grassland.txd" type="client"/>
+<file src="gta_procdesert.txd" type="client"/>
+
+ <!-- Grass -->
+<script src="shader.lua" type="client" />
+<file src="shader/shader.fx" />
+<file src="img/gras07Si.png" />
+<file src="img/txgrass0_0.png" />
+<file src="img/txgrass0_1.png" />
+<file src="img/txgrass0_2.png" />
+<file src="img/txgrass0_3.png" />
+<file src="img/txgrass1_0.png" />
+<file src="img/txgrass1_1.png" />
+<file src="img/txgrass1_2.png" />
+<file src="img/txgrass1_3.png" />
+<export function="status_trawa" type="client"/>
+</meta>

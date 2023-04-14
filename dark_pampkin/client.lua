@@ -1,0 +1,6 @@
+txd = engineLoadTXD("pampkin.txd")
+engineImportTXD(txd, 1348)
+dff = engineLoadDFF("pampkin.dff", 1348)
+engineReplaceModel(dff, 1348)
+col = engineLoadCOL ( "pampkin.col" )
+engineReplaceCOL ( col, 1348 )

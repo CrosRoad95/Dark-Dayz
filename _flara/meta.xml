@@ -1,0 +1,5 @@
+<meta>
+    <file src="flara.txd" />
+    <file src="flara.dff" />
+    <script src="Podmiana.lua" type="client" />
+</meta>

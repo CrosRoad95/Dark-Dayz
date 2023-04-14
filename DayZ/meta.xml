@@ -1,0 +1,75 @@
+<meta>
+    <info author=" Korea#3091" description="MTA:DayZ - DayZ for MTA" version="0.7r2a1" type="gamemode" />
+    <min_mta_version client="1.5" server="1.5" />
+	<!--<!> Do not change the order of the files <!>-->
+	
+	<file src="tools/blackwhite/blackwhite.fx" />
+	<file src="tools/tex_r.fx" />
+	<script src="tools/blackwhite/blackwhite_c.lua" type="client" cache="false"/>
+	<script src="tools/textlib.lua" type="client" cache="false"/>
+	<!--<map src="tools/dayz_map.map" dimension="0"></map> -->
+	<!-- Server -->
+	
+	
+	<file src="item_sounds/fillwater.mp3"/>
+	<file src='images/Loot.png'/>
+	<file src="item_sounds/refuel.mp3"/>
+	<file src="item_sounds/repair.mp3"/>
+	<file src="item_sounds/tentunpack.mp3"/>
+	<file src='tools/Font_inventory.ttf'/>
+	<file src="tools/Font.ttf"/>
+	<export function='isCanCraftable' type='client'/>
+	<export function='getVehiclePseudoName' type='client'/>
+	<file src='inventory1.png'/>
+	<oop>true</oop>
+    <script src="pickups.lua" type="server" />
+	<script src="vehicles_parts.lua" type="server" />
+	<script src="languages_s.lua" type="server" />
+	<script src="tools/textlib.lua" type="client" cache="false"/>
+	<export function="attachElementToBone" type="server" />
+	<export function="attachElementToBone" type="client" />
+	<export function="detachElementFromBone" type="server" />
+	<export function="detachElementFromBone" type="client" />
+	<export function="isElementAttachedToBone" type="server" />
+	<export function="isElementAttachedToBone" type="client" />
+	<export function="getElementBoneAttachmentDetails" type="server" />
+	<export function="getElementBoneAttachmentDetails" type="client" />
+	<export function="setElementBonePositionOffset" type="server" />
+	<export function="setElementBonePositionOffset" type="client" />
+	<export function="setElementBoneRotationOffset" type="server" />
+	<export function="setElementBoneRotationOffset" type="client" />
+	<export function="getBonePositionAndRotation" type="client" />
+	<!-- Client -->
+    <script src="menu_client.lua" type="client" cache="false"/>
+	<export function="to_do_useItem" type="client"/>
+	<export function='getItemNameKurwo' type='client'/>
+	<export function='getItemTablePosition' type='server'/>
+	<export function='createItemPickup' type='server'/>
+	<file src='scrollmenu_1.png'/>
+	<!-- Files -->
+	<oop>true</oop>
+	<file src="tools/team/warn.png" />
+	<file src="images/lights.png" />
+	<file src="images/binoculars.png" />
+	<file src="images/sniper.png" />
+	
+	<file src="images/armybox/medyczny.png" />
+	<file src="images/armybox/produkty.png" />
+	<file src="images/armybox/militarny.png" />
+	
+
+    <file src="sounds/mgroan1.ogg" />
+    <file src="sounds/mgroan2.ogg" />
+    <file src="sounds/mgroan3.ogg" />
+    <file src="sounds/mgroan4.ogg" />
+    <file src="sounds/mgroan5.ogg" />
+    <file src="sounds/mgroan6.ogg" />
+    <file src="sounds/mgroan7.ogg" />
+    <file src="sounds/mgroan8.ogg" />
+    <file src="sounds/mgroan9.ogg" />
+    <file src="sounds/mgroan10.ogg" />
+    <file src="sounds/hit1.mp3" />
+    <file src="sounds/hit2.mp3" />
+    <file src="sounds/hit3.mp3" />
+	<file src="sounds/breakbone.mp3" />
+</meta>

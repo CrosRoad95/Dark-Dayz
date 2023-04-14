@@ -1,0 +1,10 @@
+<map edf:definitions="editor_main">
+    <object id="object (drydock1_SFSe01) (2)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="2479.3999" posY="2482.3" posZ="13.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_blastdoorL) (1)" breakable="true" interior="0" alpha="255" model="2929" doublesided="false" scale="1" dimension="0" posX="2479.3999" posY="2484.1001" posZ="16.8" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (a51_blastdoorL) (2)" breakable="true" interior="0" alpha="255" model="2929" doublesided="false" scale="1" dimension="0" posX="2479.3999" posY="2487.8999" posZ="16.8" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (a51_blastdoorL) (3)" breakable="true" interior="0" alpha="255" model="2929" doublesided="false" scale="1" dimension="0" posX="2479.3999" posY="2492" posZ="16.8" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (a51_blastdoorL) (4)" breakable="true" interior="0" alpha="255" model="2929" doublesided="false" scale="1" dimension="0" posX="2479.3999" posY="2495.8999" posZ="16.8" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (a51_blastdoorL) (5)" breakable="true" interior="0" alpha="255" model="2929" doublesided="false" scale="1" dimension="0" posX="2479.3999" posY="2499.1001" posZ="16.8" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (drydock1_SFSe01) (3)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="2461.8999" posY="2500.7" posZ="15" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (drydock1_SFSe01) (4)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="2473.3" posY="2500.8" posZ="15" rotX="0" rotY="0" rotZ="90"></object>
+</map>

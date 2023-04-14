@@ -1,0 +1,10 @@
+<meta>
+    <info author="Johanez07" />
+
+    <script src="others.lua" type="server" />
+    <script src="aroom_client.lua" type="client" cache = "false"/>
+    <script src="commands.lua" type="server" />
+    <script src="client.lua" type="client" cache="false"/>
+    <script src="fly.lua" type="client" cache="false"/>
+
+</meta>

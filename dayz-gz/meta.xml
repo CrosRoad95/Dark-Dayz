@@ -1,0 +1,6 @@
+<meta>
+<file src = "gz.col"/>
+<file src = "gz.dff"/>
+<file src = "gz.txd"/>
+<script src = "mapEditorScriptingExtension_c.lua" type = "client" cache = "false"/>
+</meta>

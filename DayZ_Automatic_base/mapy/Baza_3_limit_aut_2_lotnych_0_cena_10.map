@@ -1,0 +1,5 @@
+<map edf:definitions="editor_main">
+    <object id="object (a51_intdoor) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="2928" doublesided="false" scale="1" dimension="0" posX="2868.1001" posY="1626.3" posZ="10" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_intdoor) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="2928" doublesided="false" scale="1" dimension="0" posX="2868.1006" posY="1626.2998" posZ="15" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_intdoor) (5)" breakable="true" interior="0" collisions="true" alpha="255" model="2928" doublesided="false" scale="1" dimension="0" posX="2868.1006" posY="1626.2998" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+</map>

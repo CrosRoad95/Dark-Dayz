@@ -1,0 +1,66 @@
+<meta>
+	<script src='c.lua' type='client' cache='false'/>
+	<file src='inventory1.png'/> 
+	<file src='images/transparent.png'/> 
+	<file src='images/scrollmenu.png'/> 
+	<file src='flaga_polski.png'/> 
+	<file src='flaga_eng.png'/> 
+	<file src='tlo.png'/> 
+	<file src='items.png'/> 
+	<file src='inventory_font.ttf'/> 
+	<file src='items_hover.png'/> 
+	<file src='items_select.png'/> 
+	<file src='items_eqquiped.png'/> 
+	 
+	<!-- przedmioty -->
+	<file src='przedmioty/acu.png'/> 
+	<file src='przedmioty/ak47.png'/> 
+	<file src='przedmioty/alice.png'/> 
+	<file src='przedmioty/awp.png'/> 
+	<file src='przedmioty/bandage.png'/> 
+	<file src='przedmioty/bat.png'/> 
+	<file src='przedmioty/binocular.png'/> 
+	<file src='przedmioty/blood.png'/> 
+	<file src='przedmioty/bottle.png'/> 
+	<file src='przedmioty/burger.png'/> 
+	<file src='przedmioty/canister.png'/> 
+	<file src='przedmioty/can.png'/> 
+	<file src='przedmioty/winchester.png'/> 
+	<file src='przedmioty/chest.png'/> 
+	<file src='przedmioty/chezh.png'/> 
+	<file src='przedmioty/clothes.png'/> 
+	<file src='przedmioty/colt.png'/> 
+	<file src='przedmioty/coyote.png'/> 
+	<file src='przedmioty/engine.png'/> 
+	<file src='przedmioty/engine_part.png'/> 
+	<file src='przedmioty/flesh.png'/> 
+	<file src='przedmioty/gas.png'/> 
+	<file src='przedmioty/golf.png'/> 
+	<file src='przedmioty/gps.png'/> 
+	<file src='przedmioty/grenade.png'/> 
+	<file src='przedmioty/hatchet.png'/> 
+	<file src='przedmioty/knife.png'/> 
+	<file src='przedmioty/lee.png'/> 
+	<file src='przedmioty/m4.png'/> 
+	<file src='przedmioty/m9.png'/> 
+	<file src='przedmioty/m1014.png'/> 
+	<file src='przedmioty/mag.png'/> 
+	<file src='przedmioty/map.png'/> 
+	<file src='przedmioty/matches.png'/> 
+	<file src='przedmioty/meat.png'/> 
+	<file src='przedmioty/morphine.png'/> 
+	<file src='przedmioty/mp5.png'/> 
+	<file src='przedmioty/night.png'/> 
+	<file src='przedmioty/parachute.png'/> 
+	<file src='przedmioty/pdw.png'/> 
+	<file src='przedmioty/pizza.png'/> 
+	<file src='przedmioty/PKP.png'/> 
+	<file src='przedmioty/radio.png'/> 
+	<file src='przedmioty/sawn.png'/> 
+	<file src='przedmioty/shovel.png'/> 
+	<file src='przedmioty/sniper.png'/> 
+	<file src='przedmioty/tent.png'/> 
+	<file src='przedmioty/tool.png'/> 
+	<file src='przedmioty/trap.png'/> 
+	<file src='przedmioty/wheel.png'/> 
+</meta>

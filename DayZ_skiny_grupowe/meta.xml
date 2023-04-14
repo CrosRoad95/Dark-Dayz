@@ -1,0 +1,83 @@
+<meta>
+    <info author="Korea" description="MTA:DayZ - Skiny" version="1.0" type="script" />
+    <script src='s.lua' type='server'/>
+    <script src='c.lua' type='client'/>
+    <file src='skiny/Ghosts.txd'/>
+    <file src='skiny/Ghosts.dff'/>
+    <file src='skiny/Survarium.txd'/>
+    <file src='skiny/Survarium.dff'/>
+    <file src='skiny/taczka.txd'/>
+    <file src='skiny/taczka.dff'/>
+    <file src='skiny/Team_Suspect.txd'/>
+    <file src='skiny/Team_Suspect.dff'/>
+    <file src='skiny/kluski.txd'/>
+    <file src='skiny/kluski.dff'/>
+    <file src='skiny/gengbeng.txd'/>
+    <file src='skiny/gengbeng.dff'/>
+    <file src='skiny/Alesyf.txd'/>
+    <file src='skiny/Alesyf.dff'/>
+    <file src='skiny/4FUN.txd'/>
+    <file src='skiny/4FUN.dff'/>
+    <file src='skiny/EZZZ.txd'/>
+    <file src='skiny/EZZZ.dff'/>
+    <file src='skiny/Exile-Team.txd'/>
+    <file src='skiny/Exile-Team.dff'/>
+    <file src='skiny/Czaszko-Glowi.txd'/>
+    <file src='skiny/Czaszko-Glowi.dff'/>
+    <file src='skiny/Zainfekowani.txd'/>
+    <file src='skiny/Zainfekowani.dff'/>
+    <file src='skiny/K4.txd'/>
+    <file src='skiny/K4.dff'/>
+    <file src='skiny/Thunder.txd'/>
+    <file src='skiny/Thunder.dff'/>
+
+    <file src='skiny/Hydra.txd'/>
+    <file src='skiny/Hydra.dff'/>
+    <file src='skiny/WpierdolTeam.txd'/>
+    <file src='skiny/WpierdolTeam.dff'/>
+    <file src='skiny/grupabb.txd'/>
+    <file src='skiny/grupabb.dff'/>
+    <file src='skiny/Kefsochuj.txd'/>
+    <file src='skiny/Kefsochuj.dff'/> 
+    <file src='skiny/ELITE.txd'/>
+    <file src='skiny/ELITE.dff'/>
+    <file src='skiny/Admin.txd'/>
+    <file src='skiny/Admin.dff'/>
+    <file src='skiny/4P1K3.txd'/>
+    <file src='skiny/4P1K3.dff'/> 
+<file src='skiny/ForTheWin.dff'/>
+	<file src='skiny/ForTheWin.txd'/>
+<file src='skiny/Overhaul.dff'/>
+	<file src='skiny/Overhaul.txd'/>
+<file src='skiny/thunder2.dff'/>
+	<file src='skiny/thunder2.txd'/>
+<file src='skiny/menelownia.dff'/>
+	<file src='skiny/menelownia.txd'/>
+	<file src='skiny/AngelsFromHell.dff'/>
+	<file src='skiny/AngelsFromHell.txd'/>
+	<file src='skiny/fullhouse.dff'/>
+	<file src='skiny/fullhouse.txd'/>
+	<file src='skiny/NoFear.dff'/>
+	<file src='skiny/NoFear.txd'/>
+	<file src='skiny/InfraredGoggles.dff'/>
+	<file src='skiny/InfraredGoggles.txd'/>
+	<file src='skiny/Lajkonik.dff'/>
+	<file src='skiny/Lajkonik.txd'/>
+	<file src='skiny/luckyshot.dff'/>
+	<file src='skiny/luckyshot.txd'/>
+	<file src='skiny/JPTP.dff'/>
+	<file src='skiny/JPTP.txd'/>
+	<file src='skiny/abovetheground.dff'/>
+	<file src='skiny/abovetheground.txd'/>
+	<file src='skiny/Rebels.dff'/>
+	<file src='skiny/Rebels.txd'/>
+	<file src='skiny/wearegood.dff'/>
+	<file src='skiny/wearegood.txd'/>
+
+	<export function = "checkIsSkinInTable" type = "server"/>
+
+
+
+
+
+</meta>

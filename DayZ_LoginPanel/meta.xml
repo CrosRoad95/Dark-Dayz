@@ -1,0 +1,24 @@
+<meta>
+    <info author="Johanez07" name="darkdayz.pl - Login Panel" />
+
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" />
+
+    <script src="languages_c.lua" type="client" cache="false" />
+    <script src="languages_s.lua" type="server" />
+
+    <file src="images/background.jpg"/>
+    <file src="images/acc.png"/>
+    <file src="images/passwd.png"/>
+
+    <file src="images/checkboxoff.png"/>
+    <file src="images/checkboxon.png"/>
+
+    <file src="images/button1.png"/>
+    <file src="images/button2.png"/>
+    <file src="images/button3.png"/>
+
+    <file src="sound.mp3"/>
+
+    <export function="StartLoginPanel" type="client"/>
+</meta>

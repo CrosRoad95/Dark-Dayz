@@ -1,0 +1,10 @@
+<meta>
+	<script src="client.lua" type="client" cache = "false"/>
+	
+	<file src = "skin_szef.dff"/>
+	<file src = "skin_szef.txd"/>
+	
+	<file src = "shader.fx"/>
+	<file src = "files/black.png"/>
+	
+</meta>

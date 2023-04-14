@@ -1,0 +1,6 @@
+<meta>
+	<info name="Podmianka uranusa" version="3.0" type="script" />
+	<file src="uranus.txd" />
+	<file src="uranus.dff" />
+	<script type="client" src="uranus.lua" />
+</meta>

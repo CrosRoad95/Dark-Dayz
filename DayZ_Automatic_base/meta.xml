@@ -1,0 +1,104 @@
+<meta>
+    <info author="Korea" description="MTA:DayZ - System baz" version="1.0" type="script" />
+    <map src="mapy/baza-doki-sf.map" dimension="0"></map>
+    <map src="mapy/baza-sf-antena.map" dimension="0"></map>
+    <map src="mapy/baza-ls-market.map" dimension="0"></map>
+    <map src="mapy/baza-ls-obok-bialego-domu.map" dimension="0"></map>
+    <map src="mapy/baza-las-barrancas.map" dimension="0"></map>
+    <map src="mapy/baza135kgp-lv.map" dimension="0"></map>
+    
+    <map src="mapy/bazy_gp.map" dimension="0"></map>
+    <map src="mapy/bazy_chuj.map" dimension="0"></map>
+    <map src="mapy/Baza40pln.map" dimension="0"></map>
+    <map src="mapy/BAZA20PLN5.map" dimension="0"></map>
+    <map src="mapy/BAZA20PLN4.map" dimension="0"></map>
+    <map src="mapy/BAZA20PLN3.map" dimension="0"></map>
+    <map src="mapy/baza20pln2.map" dimension="0"></map>
+    <map src="mapy/Baza_15_limit_5_lotne_1_cena_20.map" dimension="0"></map>
+    <map src="mapy/Baza_10_limit_4_lotne_0_cena_20.map" dimension="0"></map>
+    <map src="mapy/baza20pln1.map" dimension="0"></map>
+    <map src="mapy/Baza_18_limit_3_lotne_0_cena_15zllub15kgp.map" dimension="0"></map>
+    <map src="mapy/Baza_28_limit_4_lotne_1_cena_30.map" dimension="0"></map>
+    <map src="mapy/Baza_19_limit_2_lotne_0_cena_10zllub10kgp.map" dimension="0"></map>
+    <map src="mapy/Baza_11_limit_12_Lotne_5_cena_80.map" dimension="0"></map>
+    <map src="mapy/Baza_17_limit_2_lotne_0_cena_10lub15kgp.map" dimension="0"></map>
+    <map src="mapy/Baza_16_limit_3_cena_15zllub20kgp.map" dimension="0"></map>
+    <map src="mapy/Baza_14_Limit_8_lotne_3_cena_60.map" dimension="0"></map>
+    <map src="mapy/Baza_12_limit_6_Lotne_0_cena_20.map" dimension="0"></map>
+    <map src="mapy/Baza_9_Limit_6_lotnych_4_cena_50.map" dimension="0"></map>
+    <map src="mapy/Baza_30_limit_5_lotnych-_2_cena_30.map" dimension="0"></map>
+    <map src="mapy/Baza_8_limit_4_Lotne_0_cena_20.map" dimension="0"></map>
+    <map src="mapy/Baza_7_limit_2_Lotnych_0_cena_10TysGP.map" dimension="0"></map>
+    <map src="mapy/Baza_6_Limit_4_Lotnych_2_cena_30.map" dimension="0"></map>
+    <map src="mapy/Baza_3_limit_aut_2_lotnych_0_cena_10.map" dimension="0"></map>
+    <map src="mapy/Baza_2_limit_aut_6_lotnych_0_cena_15.map" dimension="0"></map>
+    <map src="mapy/baza_1_limit_aut_8_lotnych_0_cena_20.map" dimension="0"></map>
+    <map src="mapy/Baza_25_limit_4_lotne_0_cena_15_15kgp.map" dimension="0"></map>
+    <map src="mapy/Baza_22_limit_4_lotne0_cena_15_15kgp.map" dimension="0"></map>
+    <map src="mapy/Baza_21_limit_4_lotne_0_cena_20_20kgp.map" dimension="0"></map>
+    <map src="mapy/Baza_20_Limit_4_lotne_1_cena_20zl_20kgp.map" dimension="0"></map>
+    <map src="mapy/Baza26_limit_7_lotnych_3_cena_40zl.map" dimension="0"></map>
+    <map src="mapy/Baza_26_limit_5_lotne_0_cena_20.map" dimension="0"></map>
+    <map src="mapy/Baza_24_limit_5_lotne_0_cena_20zl.map" dimension="0"></map>
+    <map src="mapy/Baza_23_Limit_6_lotne_2_cena_30zl.map" dimension="0"></map>
+    <map src="mapy/Baza52.map" dimension="0"></map>
+    <map src="mapy/Baza53.map" dimension="0"></map>
+    <map src="mapy/Baza54.map" dimension="0"></map>
+    <map src="mapy/Baza55.map" dimension="0"></map>
+    <map src="mapy/Baza56.map" dimension="0"></map>
+    <map src="mapy/Baza57.map" dimension="0"></map>
+    <map src="mapy/Baza1.map" dimension="0"></map>
+    <map src="mapy/Baza44.map" dimension="0"></map>
+    <map src="mapy/Baza45.map" dimension="0"></map>
+    <map src="mapy/Baza46.map" dimension="0"></map>
+    <map src="mapy/Baza47.map" dimension="0"></map>
+    <map src="mapy/Baza48.map" dimension="0"></map>
+    <map src="mapy/Baza49.map" dimension="0"></map>
+    <map src="mapy/Baza50.map" dimension="0"></map>
+    <map src="mapy/Baza51.map" dimension="0"></map>
+    <map src="mapy/Wyspa1.map" dimension="0"></map>
+    <map src="mapy/Baza59.map" dimension="0"></map>
+    <map src="mapy/Baza60.map" dimension="0"></map>
+    <map src="mapy/Baza61.map" dimension="0"></map>
+    <map src="mapy/Baza62.map" dimension="0"></map>
+    <map src="mapy/Baza63.map" dimension="0"></map>
+    <!-- <map src="mapy/Baza64.map" dimension="0"></map> -->
+    <map src="mapy/Baza65.map" dimension="0"></map>
+    <map src="mapy/Baza66.map" dimension="0"></map>
+    <map src="mapy/Baza67.map" dimension="0"></map>
+    <map src="mapy/Baza68.map" dimension="0"></map>
+    <map src="mapy/Baza69.map" dimension="0"></map>
+    <map src="mapy/Baza70.map" dimension="0"></map>
+    <map src="mapy/Baza72.map" dimension="0"></map>
+    <map src="mapy/Baza73.map" dimension="0"></map>
+    <map src="mapy/Baza74.map" dimension="0"></map>
+    <map src="mapy/Baza75.map" dimension="0"></map>
+    <map src="mapy/Baza76.map" dimension="0"></map>
+    <map src="mapy/Baza77.map" dimension="0"></map>
+    <map src="mapy/Baza78.map" dimension="0"></map>
+    <map src="mapy/Baza79.map" dimension="0"></map>
+    <map src="mapy/Baza80.map" dimension="0"></map>
+    <map src="mapy/Baza81.map" dimension="0"></map>
+    <map src="mapy/Baza82.map" dimension="0"></map>
+    <map src="mapy/Baza83.map" dimension="0"></map>
+    <map src="mapy/Baza84.map" dimension="0"></map>
+    <map src="mapy/Baza85.map" dimension="0"></map>
+    <map src="mapy/Baza86.map" dimension="0"></map>
+    <map src="mapy/Baza87.map" dimension="0"></map>
+    <map src="mapy/Baza88.map" dimension="0"></map>
+    <map src="mapy/Baza89.map" dimension="0"></map>
+    <map src="mapy/bazasailexa.map" dimension="0"></map>
+    <map src="mapy/baza-negana.map" dimension="0"></map>
+    
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+    <script src="s.lua" type="server" />
+    <script src="c.lua" type="client" cache="false" />
+    <script src="panel_c.lua" type="client" cache="false" />
+    <export function="Bases_GetAllBases" http="true" />
+    <export function="isVehicleInBase" type="server" />
+    <export function="isPlayerInBase" type="client" />
+    <min_mta_version server="1.5.7-0.20397" />
+    <file src="uop.png" />
+    <file src="chuj.png" />
+</meta>

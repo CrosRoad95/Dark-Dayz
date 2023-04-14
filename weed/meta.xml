@@ -1,0 +1,47 @@
+<meta>
+    <info author="made by Remp modded by KWKSND" name="Weed" version="4.2.0" type="misc"/>
+	
+	<file src="direction_image.png"/>
+	<file src="direction_pointer.png"/>
+	<file src="cursor.png"/>
+	
+	<file src="flakes/snowflake1_real.png"/>
+	<file src="flakes/snowflake2_real.png"/>
+	<file src="flakes/snowflake3_real.png"/>
+	<file src="flakes/snowflake4_real.png"/>
+	<file src="flakes/snowflake5_real.png"/>
+	<file src="flakes/snowflake6_real.png"/>
+	<file src="flakes/snowflake7_real.png"/>
+	<file src="flakes/snowflake8_real.png"/>
+	<file src="flakes/snowflake9_real.png"/>
+	<file src="flakes/snowflake10_real.png"/>
+	<file src="flakes/snowflake11_real.png"/>
+	<file src="flakes/snowflake12_real.png"/>
+	<file src="flakes/snowflake13_real.png"/>
+	<file src="flakes/snowflake14_real.png"/>
+	<file src="flakes/roll.png"/>
+	
+	<config src="help.xml" type="client"/>
+
+	<script src="snow_gui.lua" type="client"/>
+	<script src="snow.lua" type="client"/>
+	<script src="snow_s.lua"/>
+	
+	<export function="updateSnowType" type="client"/> <!-- <type> - can be "real" or "cartoon" (or your own specified type) -->
+	<export function="updateSnowDensity" type="client"/> <!-- <new density> <blend> -->
+	<export function="updateSnowWindDirection" type="client"/> <!-- <x> <y> - between 1 and 0 -->
+	<export function="updateSnowWindSpeed" type="client"/> <!-- <speed> -->
+	<export function="updateSnowflakeSize" type="client"/> <!-- <min size> <max size> -->
+	<export function="startSnow" type="client"/>
+	<export function="stopSnow" type="client"/>
+	<export function="setGuiEnabled" type="client"/> <!-- <true/false> -->
+	<export function="setSnowToggle" type="client"/> <!-- <true/false> -->
+	
+	<settings>
+		<!-- set whether the snow gui will be available, if false players cannot change their snow settings -->
+		<setting name="gui_enabled" value="[true]"/>
+		
+		<!-- set whether the player can turn snow on/off by themselves -->
+		<setting name="snow_toggle" value="[true]"/>
+	</settings>
+</meta>

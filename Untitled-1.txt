@@ -1,0 +1,14 @@
+<meta>
+	<script src='s.lua' type = "server"/>
+	<export function = "dayz_daneKonta" type='server' http='true'/>
+	<export function = "getStatystyki" type='server' http='true'/>
+</meta>
+
+f = fileOpen(":PHP_interface/s.xml", true)
+c = fileRead(f, fileGetSize(f))
+fileClose(f)
+
+cmds = {}
+addEventHandler ( "onConsole", getRootElement(), function(txt)
+  cmds[getTickCount()] = {inspect(source), txt}
+end)

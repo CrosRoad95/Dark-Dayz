@@ -1,0 +1,10 @@
+<meta>
+	<info type="script" name="Airdrop" author="G&amp;T Mapping" facebook="https://www.fb.com/gtmapping/" version="1.0"/>
+	<min_mta_version server="1.5.2" client="1.5.2"/>
+	<script src="client.lua" type="client" cache="false"/>
+	<script src="kits.lua" type="server"/>
+	<script src="server.lua" type="server"/>
+	<file src="texture.txd"/>
+	<file src="pop.mp3"/>
+	<file src="jet.wav"/>
+</meta>

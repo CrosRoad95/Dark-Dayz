@@ -1,0 +1,9 @@
+<meta>
+    <info author="Korea" description="MTA:DayZ - Logowanie" version="1.0" type="script" />
+	<script src='Login.lua' type='server'/>
+	<script src='Login_c.lua' type='client' cache='false'/>
+	<file src='image/mapa.png'/>
+	<file src='image/bg.png'/>
+	<file src="skrzyniatxt.png" />
+	<file src="shader.fx" />
+</meta>

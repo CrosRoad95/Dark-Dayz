@@ -1,0 +1,23 @@
+<meta>
+    <info author="Korea" description="D-DayZ | Dziweki podczas strzalu" version="1.0" type="script" />
+	<script src='c.lua' type='client' cache='false'/>
+	<file src='sounds/awp.wav'/>
+	<file src='sounds/ak.wav'/>
+	<file src='sounds/m4.wav'/>
+	<file src='sounds/g36c.wav'/>
+	<file src='sounds/mp5.wav'/>
+	<file src='sounds/pkp.wav'/>
+	<file src='sounds/mg34.wav'/>
+	<file src='sounds/shotgun.wav'/>
+	<file src='sounds/pdw.wav'/>
+	<file src='sounds/silenced.wav'/>
+	<file src='sounds/pistol.wav'/>
+	<file src='sounds/sawedoff.wav'/>
+	<file src='sounds/spas.wav'/>
+	<file src='sounds/enfield.wav'/>
+	<file src='sounds/svd.wav'/>
+	<file src='sounds/barrett.wav'/>
+	<file src='sounds/aa-12.wav'/>
+	<file src='sounds/scar.wav'/>
+	<file src='sounds/m4a1.wav'/>
+</meta>

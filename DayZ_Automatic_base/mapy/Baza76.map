@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (vgs_palm03) (1)" radius="14.100514" interior="0" model="712" lodModel="0" posX="2378.8828" posY="2013.1406" posZ="18.70313" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (drydock1_SFSe01) (1)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="2399.6001" posY="2021.9" posZ="13.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe) (1)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="2385" posY="2013.9" posZ="14.6" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe) (2)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="2385.1001" posY="2002" posZ="14.6" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe) (3)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="2385" posY="1990.2" posZ="14.6" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe01) (3)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="2370.2002" posY="2019.4004" posZ="13.7" rotX="0" rotY="0" rotZ="0"></object>
+</map>

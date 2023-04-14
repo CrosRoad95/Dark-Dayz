@@ -1,0 +1,13 @@
+<meta>
+    <info type="map" version="1.0.0"></info>
+	<script src="client.lua" type="client" cache="false"/>	
+	<file src="Baza1.txd" type="client"/>
+	<file src="Baza1.dff" type="client"/>
+	<file src="Baza1.col" type="client"/>
+	<file src="Baza2.txd" type="client"/>
+	<file src="Baza2.dff" type="client"/>
+	<file src="Baza2.col" type="client"/>
+	<file src="Baza3.txd" type="client"/>
+	<file src="Baza3.dff" type="client"/>
+	<file src="Baza3.col" type="client"/>
+</meta>

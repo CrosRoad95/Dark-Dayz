@@ -1,0 +1,18 @@
+<meta>
+	<script type="client" src="client.lua" cache='false' />
+	<script type="server" src="server.lua" />
+	<file src='images/infernus.PNG'/>
+	<file src='images/elegy.png'/>
+	<file src='images/bobcat.png'/>
+	<file src='images/sandking.png'/>
+	<file src='images/supergt.png'/>
+	<file src='images/flash.png'/>
+	<file src='images/maverick.png'/>
+	<file src='images/sparrow.png'/>
+	<file src='images/seasparrow.png'/>
+	<file src='images/turismo.png'/>
+	<file src='images/patriot.png'/>
+	<file src='images/transparent.png'/>
+	<file src='images/gun.png'/>
+	<file src='images/mechanic.png'/>
+</meta> 

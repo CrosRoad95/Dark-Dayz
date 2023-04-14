@@ -1,0 +1,12 @@
+<map edf:definitions="editor_main">
+    <object id="object (drydock1_SFSe01) (1)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2743" posY="105.8" posZ="7.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe01) (3)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2743" posY="118.1" posZ="7.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe01) (4)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2743.1001" posY="130.60001" posZ="7.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe01) (6)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2736.8" posY="103.5" posZ="8.3" rotX="0" rotY="90" rotZ="90"></object>
+    <object id="object (drydock1_SFSe01) (7)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2737" posY="108.7" posZ="8.3" rotX="0" rotY="90" rotZ="90"></object>
+    <object id="object (drydock1_SFSe01) (8)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2737.2" posY="113.9" posZ="8.3" rotX="0" rotY="90" rotZ="90"></object>
+    <object id="object (drydock1_SFSe01) (9)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2737.1001" posY="119.1" posZ="8.3" rotX="0" rotY="90" rotZ="90"></object>
+    <object id="object (drydock1_SFSe01) (10)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2737" posY="124.3" posZ="8.3" rotX="0" rotY="90" rotZ="90"></object>
+    <object id="object (drydock1_SFSe01) (11)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2736.8999" posY="129.3" posZ="8.3" rotX="0" rotY="90" rotZ="90"></object>
+    <object id="object (drydock1_SFSe01) (12)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2736.8" posY="134.39999" posZ="8.3" rotX="0" rotY="90" rotZ="90"></object>
+</map>

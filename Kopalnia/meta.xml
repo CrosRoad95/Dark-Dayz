@@ -1,0 +1,6 @@
+<meta>
+<script src="Podmiana.lua" type="client" />
+<file src="Model.txd"/>
+<file src="Model.dff"/>
+<file src="Model.col"/>
+</meta>

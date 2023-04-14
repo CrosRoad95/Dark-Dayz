@@ -1,0 +1,21 @@
+<map edf:definitions="editor_main">
+    <object id="object (DYN_BEER_1) (1)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="-254.8" posY="1499.4" posZ="95.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_BEER_1) (2)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="-2400" posY="-736.20001" posZ="153.39999" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_BEER_1) (3)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="114.59961" posY="2009.4004" posZ="39.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_BEER_1) (4)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="259.2002" posY="1045.7998" posZ="44" rotX="349.997" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_BEER_1) (5)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="-763.59961" posY="1116.5996" posZ="65.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_BEER_1) (6)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="-1488.2998" posY="666.7002" posZ="27.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_BEER_1) (7)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="-2090" posY="1430.9004" posZ="27.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_BEER_1) (8)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="-2434.3994" posY="673.59961" posZ="55.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_BEER_1) (9)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="-471.5" posY="-2429.7" posZ="132.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_BEER_1) (10)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="-2451.2002" posY="-1315.7998" posZ="331.89999" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_BEER_1) (11)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="-116.6" posY="-1329.5" posZ="22.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_BEER_1) (12)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="1879.8" posY="-1567.2" posZ="34" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_BEER_1) (13)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="1800.7002" posY="-1929.7002" posZ="33.7" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (vgs_palmvtall) (1)" radius="44.124584" interior="0" model="740" lodModel="0" posX="1887.1953" posY="-1565.8984" posZ="9.78125" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (DYN_BEER_1) (14)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="2339.8" posY="-706.5" posZ="152.3" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (veg_palm04) (1)" radius="22.657042" interior="0" model="620" lodModel="0" posX="2526.2188" posY="-1581.6406" posZ="20.92969" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (veg_palm04) (2)" radius="22.657042" interior="0" model="620" lodModel="0" posX="2510.5625" posY="-1563.4766" posZ="21.80469" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (veg_palm04) (3)" radius="22.657042" interior="0" model="620" lodModel="0" posX="2490.4453" posY="-1585.8672" posZ="20.79688" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (DYN_BEER_1) (15)" breakable="true" interior="0" alpha="255" model="1486" doublesided="false" scale="1" dimension="0" posX="2522.1006" posY="-1582.2002" posZ="43.2" rotX="0" rotY="0" rotZ="0"></object>
+</map>

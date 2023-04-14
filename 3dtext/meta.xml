@@ -1,0 +1,4 @@
+<meta>
+	<script src="c_3dtext.lua" type="client" />
+	<file src="font.ttf"/>
+</meta>

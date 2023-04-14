@@ -1,0 +1,13 @@
+<meta>
+    <info author="Korea" description="The-DayZ | Poziomy" version="1.0" type="script" />
+	<script src='c.lua' type='client' cache='false'/>
+	<script src='s.lua'/>
+	<file src="Foul_Fiend.ttf"/>
+	<file src="exp_font.ttf"/>
+	<file src="uop.png"/>
+	<export function = "getCosNaStart" type="server"/>
+	<export function = "giveEXP" type="server"/>
+	<export function = "getMaxHealth" type="client"/>
+	<export function = "getMaxHealth" type="server"/>
+	<export function = "GetExpNeedToLevel" type="client"/>
+</meta>

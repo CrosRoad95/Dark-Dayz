@@ -1,0 +1,5 @@
+<meta>
+    <info name="None" author="FJ--Rusek" description="None" version="1.0" type="script"></info>
+    <script src="c.lua" type="client"></script>
+    <script src="s.lua" type="server"></script>
+</meta>

@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (shoppie4_SFS) (1)" radius="82.757233" interior="0" model="10949" lodModel="11024" posX="-2076.2734" posY="359.32031" posZ="44.59375" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (shoppie4_SFS) (2)" breakable="true" interior="0" alpha="255" model="10949" doublesided="false" scale="1" dimension="0" posX="-2075.8999" posY="358.60001" posZ="50.1" rotX="0" rotY="0" rotZ="0"></object>
+</map>

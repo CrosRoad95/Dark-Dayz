@@ -1,0 +1,7 @@
+<meta last_id="15299">
+    <info author="Korea" description="MTA:DayZ - System aut" version="1.0" type="script" />
+    <script src="languages_s.lua" type="server" />
+    <script src="s.lua" type="server" />
+    <script src="c.lua" type="client" cache="false" />
+    <script src="commands.lua" type="server" />
+</meta>

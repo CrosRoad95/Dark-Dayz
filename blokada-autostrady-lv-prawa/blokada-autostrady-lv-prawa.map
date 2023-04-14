@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main">
+    <object id="object (bonyrd_block1_) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="3269" scale="1" doublesided="false" collisions="true" posX="2702.6001" posY="2108.3" posZ="5.8" rotX="0" rotY="0" rotZ="193.062"></object>
+    <object id="object (des_pueblo4) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="11443" scale="1" doublesided="false" collisions="true" posX="2694.2" posY="2091.6001" posZ="6.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntwjunk01) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="18248" scale="1" doublesided="false" collisions="true" posX="2729.8999" posY="2101.3999" posZ="13.8" rotX="0" rotY="0" rotZ="235.459"></object>
+    <object id="object (cuntwjunk05) (3)" breakable="true" interior="0" alpha="255" dimension="0" model="18249" scale="1" doublesided="false" collisions="true" posX="2728.5" posY="2108.5" posZ="2" rotX="0" rotY="0" rotZ="98.219"></object>
+    <object id="object (temp_stinger) (4)" breakable="true" interior="0" alpha="255" dimension="0" model="2892" scale="1" doublesided="false" collisions="true" posX="2736" posY="2075.1001" posZ="5.8" rotX="0" rotY="0" rotZ="272.026"></object>
+    <object id="object (temp_stinger) (5)" breakable="true" interior="0" alpha="255" dimension="0" model="2892" scale="1" doublesided="false" collisions="true" posX="2716.1001" posY="2074.3999" posZ="5.7" rotX="0" rotY="0" rotZ="93.485"></object>
+    <object id="object (temp_stinger) (6)" breakable="true" interior="0" alpha="255" dimension="0" model="2892" scale="1" doublesided="false" collisions="true" posX="2697.2" posY="2074.3" posZ="5.8" rotX="0" rotY="0" rotZ="268.184"></object>
+    <object id="object (temp_stinger) (7)" breakable="true" interior="0" alpha="255" dimension="0" model="2892" scale="1" doublesided="false" collisions="true" posX="2705.8999" posY="2074.1001" posZ="5.7" rotX="0" rotY="0" rotZ="271.359"></object>
+    <object id="object (temp_stinger) (8)" breakable="true" interior="0" alpha="255" dimension="0" model="2892" scale="1" doublesided="false" collisions="true" posX="2726" posY="2074.8999" posZ="5.7" rotX="0" rotY="0" rotZ="273.352"></object>
+</map>

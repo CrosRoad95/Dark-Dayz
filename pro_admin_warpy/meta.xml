@@ -1,0 +1,5 @@
+<meta>
+    <info author="Heisenberg / Nesty" type="script" name="[ FG-DayZ ] Admin Warp" version="1.0" />
+
+    <script src="pro_admin_warp.lua" type="server" />
+</meta>

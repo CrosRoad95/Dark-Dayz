@@ -1,0 +1,53 @@
+<meta>
+	<script src = "client.lua" type = "client" cache="false" />
+	<script src = "server.lua" type = "server" />
+	<file src='Pliczus.html' raw='true'/>
+	<file src='Pliczus2.html' raw='true'/>
+	<file src="logo.png"/>
+	<file src="armybox.jpg"/>
+	<file src="texreplace.fx"/>
+	<file src="celowniki/1.png"/>
+	<file src="celowniki/2.png"/>
+	<file src="celowniki/3.png"/>
+	<file src="celowniki/4.png"/>
+	<file src="celowniki/5.png"/>
+	<file src="celowniki/6.png"/>
+	<file src="celowniki/7.png"/>
+	<file src="celowniki/8.png"/>
+	<file src="celowniki/9.png"/>
+	<file src="celowniki/10.png"/>
+	<file src="celowniki/11.png"/>
+	<file src="celowniki/12.png"/>
+	<file src="celowniki/13.png"/>
+	<file src="celowniki/14.png"/>
+	<file src="celowniki/15.png"/>
+	<file src="celowniki/16.png"/>
+	<file src="celowniki/17.png"/>
+	<file src="celowniki/18.png"/>
+	<file src="celowniki/19.png"/>
+	<file src="celowniki/20.png"/>
+	<file src="celowniki/21.png"/>
+	<file src="celowniki/22.png"/>
+	<file src="celowniki/23.png"/>
+	<file src="celowniki/24.png"/>
+	<file src="celowniki/25.png"/>
+	<file src="ikony/baza.jpg"/>
+	<file src="ikony/baza_niekupiona.jpg"/>
+	<file src="ikony/Handlarz_aut.jpg"/>
+	<file src="ikony/kupiona_baza.jpg"/>
+	<file src="ikony/Magazyn.jpg"/>
+	<file src="ikony/Militarka.jpg"/>
+	<file src="ikony/Militarka_z_radarem.jpg"/>
+	<file src="ikony/Oznaczenie_teammate.jpg"/>
+	<file src="ikony/pociag.jpg"/>
+	<file src="ikony/pociag_armybox.jpg"/>
+	<file src="ikony/Sklepikarz.jpg"/>
+	<file src="ikony/Wyspamagow.jpg"/>
+	<file src="ikony/zombotech.jpg"/>
+	<file src="ikony/priv_tenty.jpg"/>
+	<file src="ikony/BS.jpg"/>
+	<file src="ikony/boat.jpg"/>
+	<file src="ikony/air.jpg"/>
+	<file src="ikony/wyspa.jpg"/>
+	<file src="ikony/pytajnik.jpg"/>
+</meta>

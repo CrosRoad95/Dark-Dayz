@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main">
+    <object id="object (drydock1_SFSe) (1)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="1017.4" posY="-1096" posZ="33.2" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (drydock1_SFSe) (2)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="1020.5" posY="-1081.7" posZ="34" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe) (3)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="1033.4" posY="-1081.8" posZ="34" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe) (5)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="1048.3" posY="-1095.7" posZ="34" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (drydock1_SFSe) (6)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="1033.1" posY="-1110.6" posZ="34" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (tree_hipoly19) (1)" radius="20.921576" interior="0" model="726" lodModel="0" posX="1013.0938" posY="-1078.1719" posZ="26.08594" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (drydock1_SFSe) (8)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="1029.2" posY="-1096" posZ="33.2" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (drydock1_SFSe) (9)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="1041.1" posY="-1095.7" posZ="33.24" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (drydock1_SFSe) (10)" breakable="true" interior="0" alpha="255" model="10828" doublesided="false" scale="1" dimension="0" posX="1048.3" posY="-1095.7" posZ="33.2" rotX="90" rotY="0" rotZ="90"></object>
+</map>

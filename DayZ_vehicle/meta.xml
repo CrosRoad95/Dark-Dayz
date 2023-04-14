@@ -1,0 +1,6 @@
+<meta>
+    <info author="Korea" description="MTA:DayZ - Vehicle" version="1.0" type="script" />
+	<script src='vehicles.lua' type='server'/>
+	<export function ="getVehicleAddonInfos" type='server'/>
+	<export function ="getVehicleMaxFuel" type='server'/>
+</meta>

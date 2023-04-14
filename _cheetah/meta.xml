@@ -1,0 +1,6 @@
+<meta>
+	<info name="Podmianka cheetah" author="Zub3k" version="3.0" type="script" />
+	<file src="cheetah.txd" />
+	<file src="cheetah.dff" />
+	<script type="client" src="cheetah.lua" />
+</meta>

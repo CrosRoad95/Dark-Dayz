@@ -1,0 +1,5 @@
+<meta>
+	<info author="[D]eath" name="Radar-Area51" version="1.0" type="script"/>
+	<script src="client.lua" type="client"/>
+	<script src="server.lua"/>
+</meta>

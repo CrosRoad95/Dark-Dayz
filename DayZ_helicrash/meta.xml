@@ -1,0 +1,9 @@
+<meta>
+    <info author="Korea/Prophet" description="D-DayZ | Crashe" version="1.0" type="script" />
+	<script src='s.lua' type='server'/>
+	<script src='c.lua' type='client'/>
+     <file src="uh1y_dayz.txd" />   
+     <file src="uh1y_dayz.col" />
+     <file src="uh1y_dayz.dff" />
+	<oop>true</oop>
+</meta>

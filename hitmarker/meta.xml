@@ -1,0 +1,11 @@
+<meta>
+    <info author="Nesty" type="script" name="[ FG-DayZ ] Hitmarker" version="1.0" />
+
+    <script src="client.lua" type="client" />
+    <script src="s.lua" type="server" />
+
+    <file src="hitmarker_interface/fg_hitmarker_white.png" />
+    <file src="hitmarker_interface/fg_hitmarker_yellow.png" />
+
+    <file src="hitmarker_interface/fg_hitmarker.wav" />
+</meta>

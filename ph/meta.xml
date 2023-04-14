@@ -1,0 +1,5 @@
+<meta>
+    <file src="auto.txd" />
+    <file src="auto.dff" />
+    <script src="Podmiana.lua" type="client" />
+</meta>

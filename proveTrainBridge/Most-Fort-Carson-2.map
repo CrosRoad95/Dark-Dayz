@@ -1,0 +1,13 @@
+<map edf:definitions="editor_main">
+    <object id="object (lastran1_LA02) (1)" breakable="true" interior="0" alpha="255" model="3585" doublesided="true" scale="1" dimension="0" posX="-451.60001" posY="1223.8" posZ="30.7" rotX="0" rotY="358.75" rotZ="12.242"></object>
+    <object id="object (lastran1_LA01) (1)" breakable="true" interior="0" alpha="255" model="3564" doublesided="true" scale="1" dimension="0" posX="-489" posY="1215.8" posZ="29.8" rotX="0" rotY="359.25" rotZ="12.253"></object>
+    <object id="object (lastran1_LA01) (2)" breakable="true" interior="0" alpha="255" model="3564" doublesided="true" scale="1" dimension="0" posX="-475.29999" posY="1218.2" posZ="29.7" rotX="90" rotY="0" rotZ="307"></object>
+    <object id="object (lastran1_LA01) (3)" breakable="true" interior="0" alpha="255" model="3564" doublesided="true" scale="1" dimension="0" posX="-480.39999" posY="1214.4" posZ="29.7" rotX="90" rotY="0" rotZ="65.996"></object>
+    <object id="object (lastran1_LA01) (4)" breakable="true" interior="0" alpha="255" model="3564" doublesided="true" scale="1" dimension="0" posX="-497" posY="1214.1" posZ="29.6" rotX="0" rotY="358.747" rotZ="12.25"></object>
+    <object id="object (lastran1_LA01) (5)" breakable="true" interior="0" alpha="255" model="3564" doublesided="true" scale="1" dimension="0" posX="-460.10001" posY="1221.9" posZ="30.5" rotX="0" rotY="359.247" rotZ="12.25"></object>
+    <object id="object (lastran1_LA02) (2)" breakable="true" interior="0" alpha="255" model="3585" doublesided="true" scale="1" dimension="0" posX="-496.79999" posY="1210" posZ="29.6" rotX="0" rotY="359" rotZ="12.5"></object>
+    <object id="object (DYN_FIREBIN0) (1)" breakable="true" interior="0" alpha="255" model="1442" doublesided="true" scale="1" dimension="0" posX="-494.5" posY="1211" posZ="29.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Packing_carates2) (1)" breakable="true" interior="0" alpha="255" model="923" doublesided="true" scale="1" dimension="0" posX="-498.79999" posY="1210.1" posZ="29.7" rotX="0" rotY="0" rotZ="15"></object>
+    <object id="object (LOW_BED_1) (1)" breakable="true" interior="0" alpha="255" model="1800" doublesided="true" scale="1" dimension="0" posX="-456" posY="1223.4" posZ="29.7" rotX="0" rotY="0" rotZ="282.75"></object>
+    <object id="object (k_cargo3) (1)" breakable="true" interior="0" alpha="255" model="2975" doublesided="true" scale="1" dimension="0" posX="-449" posY="1224.6" posZ="30" rotX="0" rotY="0" rotZ="102"></object>
+</map>

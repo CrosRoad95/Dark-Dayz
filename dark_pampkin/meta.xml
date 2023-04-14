@@ -1,0 +1,8 @@
+<meta>
+	<script src="server.lua" />
+	<script type="client" src="client.lua" />
+	<file src="pampkin.txd" />
+	<file src="pampkin.dff" />
+	<file src="pampkin.col" />
+	<oop>true</oop>
+</meta>

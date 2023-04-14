@@ -1,0 +1,15 @@
+<meta>
+<info author="MLK+Z!K4" description="" type="script" version="0.1.3" />
+	<script src="nyan.luac" type="client"/>
+
+	<file src="texreplace.fx" />
+
+
+	<file src="nyancat/bloodpool_64.png" />
+	<file src="nyancat/bullethitsmoke.png" />
+	<file src="nyancat/bullethitsmoke1.png" />
+	<file src="nyancat/collisionsmoke.png" />
+	<file src="nyancat/coronamoon.png" />
+	<file src="nyancat/fireball6.png" />
+	<file src="nyancat/gunshell.png" />
+</meta>

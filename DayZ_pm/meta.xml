@@ -1,0 +1,4 @@
+<meta>
+	<info author="NeXTreme - [M]ister" name="Sistema de mensagem privada" version="1.0.0" type="script"/>	
+	<script src="pmsystem.lua" type="server" />
+</meta>

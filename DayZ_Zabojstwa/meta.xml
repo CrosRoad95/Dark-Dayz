@@ -1,0 +1,8 @@
+<meta>
+    <info author="Korea" description="D-DayZ" version="1.0" type="script" />
+	<file src='KillInfo.png'/>
+	<file src='Font.ttf'/>
+	<file src='kill.wav'/>
+	<script src='c.lua' type='client' cache='false'/>
+	<script src='s.lua'/>
+</meta>

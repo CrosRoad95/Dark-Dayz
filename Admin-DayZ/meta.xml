@@ -1,0 +1,5 @@
+<meta>
+<info author='Korea'/>
+<script src = "c.lua" type = "client" cache = "false"/>
+<script src = "s.lua"/>
+</meta>

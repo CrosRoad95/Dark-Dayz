@@ -1,0 +1,213 @@
+<meta>
+	<info author="Fanbox" version="1.0.0" type="misc"/>
+	
+	<script src="script.lua" type="client" cache="false" />
+	
+	<file src="shader/texreplace.fx"/>	
+	<file src="shaders/snow.fx" />
+	<script src="server.lua" type="server" />
+	<script src="world.lua" type="client" cache="false" />
+	<script src="snow.lua" type="client" cache="false" />
+	<script src="ice.lua" type="client" cache="false" />
+	<script src="textures.lua" type="client" cache="false" />
+	<file src="shaders/mta-helper.fx"/>
+	<file src="shaders/shader.fx"/>
+	<file src="shaders/snow_ground.fx"/>
+	<file src="shaders/snow_naughty_trees.fx"/>
+	<file src="shaders/snow_trees.fx"/>
+	<file src="shaders/shaderalphablend.fx"/>
+	<file src="single.fantastical" />
+	<file src="trottileLOD.fantastical" />
+	 
+	<file src="images/Snow01.png"/>	
+	<file src="images/Snow02.png"/>	
+	<file src="images/Snow03.png"/>	
+		
+	<file src="images/empty.png"/>	
+	<file src="images/ice.png"/>	
+	<file src="images/headlight.jpg"/>	
+	<file src="images/headlight1.jpg"/>	
+	<file src="images/shad_exp.jpg"/>	
+	<file src="images/lamp_shad_64.png"/>	
+	<file src="images/coronastar.png"/>	
+	<file src="images/txgrassbig0.png"/>	
+	<file src="images/txgrassbig1.png"/>	
+	<file src="images/shad_bike.png"/>	
+	<file src="images/shad_car.png"/>		
+	<file src="images/bloodpool_64a.png"/>	
+	<file src="images/cloud1.jpg"/>	
+	<file src="images/cloudmasked.png"/>	
+	
+	<file src="images/smoke5.png"/>	
+	<file src="images/smoke4.png"/>	
+	<file src="images/smokeII_3.png"/>	
+	<file src="images/smoke.png"/>	
+	<file src="images/fireball6.png"/>	
+	<file src="images/splash_up.jpg"/>	
+	<file src="images/splash_up1.jpg"/>	
+	<file src="images/splash_up2.jpg"/>	
+	<file src="images/gensplash.png"/>	
+	<file src="images/bubbles.png"/>	
+	<file src="images/bullethitsmoke.png"/>	
+	<file src="images/des_dirt2.jpg"/>	
+	
+	<file src="images/gras07Si.png"/>			
+	<file src="images/newtreeleaves128.png"/>		
+	<file src="images/newtreeleavesb128.png"/>		
+	<file src="images/pinelo128.png"/>		
+	<file src="images/lamppost.jpg"/>		
+	<file src="images/tree19Mi.png"/>		
+	<file src="images/dead_agave.png"/>		
+	<file src="images/kbplanter_plants1.png"/>		
+	<file src="images/treeleaves1.png"/>		
+	<file src="images/leaf_af_palmtree_b_de.png"/>		
+	<file src="images/ssad.png"/>		
+	<file src="images/glass.png"/>		
+	<file src="images/nmb.png"/>		
+	<file src="images/ottos_SFE.jpg"/>		
+	<file src="images/ws_newshop.jpg"/>		
+	<file src="images/ws_newshop2.jpg"/>		
+	<file src="images/sexsign1_LAwn.jpg"/>		
+	<file src="images/ws_goldengate5.jpg"/>		
+	<file src="images/ws_goldengate2.png"/>		
+	<file src="images/ws_goldengate1.jpg"/>		
+	<file src="images/ws_goldengate4.jpg"/>		
+	<file src="images/bridge_egg_sfw.jpg"/>		
+	<file src="images/ws_wangcar2.jpg"/>		
+	<file src="images/ws_wangcar1.jpg"/>		
+	<file src="images/frate_doors64.jpg"/>		
+	<file src="images/frate64_blue.jpg"/>		
+	<file src="images/frate_doors128red.jpg"/>		
+	<file src="images/frate64_red.jpg"/>		
+	<file src="images/frate_doors64yellow.jpg"/>		
+	<file src="images/frate64_yellow.jpg"/>		
+	
+	<file src="images/drvin_ground1.jpg"/>	
+	<file src="images/grasstype5.jpg"/>	
+	<file src="images/grasstype5_4.jpg"/>	
+	<file src="images/dirtblendlit.jpg"/>	
+	<file src="images/rocktbrn128.jpg"/>	
+	<file src="images/rocktbrn_dirt2.jpg"/>	
+	<file src="images/sm_rock2_desert.jpg"/>	
+	<file src="images/des_dirt2.jpg"/>	
+	<file src="images/des_dirt2track.jpg"/>	
+	<file src="images/des_dirt2trackr.jpg"/>	
+	<file src="images/pavebsandend.jpg"/>	
+	<file src="images/des_dirt2dedgrass.jpg"/>	
+	<file src="images/des_redrockmid.jpg"/>	
+	<file src="images/des_redrockbot.jpg"/>	
+	<file src="images/grassdead1blnd.jpg"/>	
+	<file src="images/des_dirttrackl.jpg"/>	
+	<file src="images/des_geyser.jpg"/>	
+	<file src="images/des_dirt2 trackl.jpg"/>	
+	<file src="images/ws_traingravel.jpg"/>	
+	<file src="images/pavebsand256.jpg"/>	
+	<file src="images/desstones_dirt1.jpg"/>	
+	<file src="images/des_dirt2dedgr.jpg"/>	
+	<file src="images/des_dirt2dedgra.jpg"/>	
+	<file src="images/CE_roadverge.png"/>	
+	<file src="images/sm_pinetreebit.png"/>	
+	<file src="images/kbtree4_test.png"/>	
+	<file src="images/planta256.png"/>	
+	<file src="images/trunk3.png"/>	
+	<file src="images/Newtreed256.png"/>	
+	<file src="images/weeelm.png"/>	
+	<file src="images/sprucbr.png"/>	
+	<file src="images/cedarbare.png"/>	
+	<file src="images/cedarwee.png"/>	
+	<file src="images/elmdead.png"/>	
+	<file src="images/Locustbra.png"/>	
+	<file src="images/Elm_treegrn4.png"/>	
+	<file src="images/Elm_treegrn2.png"/>	
+	<file src="images/Elm_treegrn.png"/>	
+	<file src="images/elmtreered.png"/>	
+	<file src="images/pinebrnch1.png"/>	
+	<file src="images/hazelbrnch.png"/>	
+	<file src="images/Grass_concpath_128HV.png"/>	
+	<file src="images/Grass_path_law.png"/>	
+	
+	<file src="images/veg_bush3red.png"/>	
+	<file src="images/veg_bush3.png"/>	
+	<file src="images/spruce1.png"/>	
+	<file src="images/oak2b.png"/>	
+	<file src="images/oakleaf2.png"/>	
+	<file src="images/pinebranch2.png"/>	
+	<file src="images/NEWrockgrass_sfw.png"/>	
+	<file src="images/cypress2.png"/>	
+	<file src="images/shingles3.png"/>	
+	<file src="images/comptroof4.png"/>	
+	<file src="images/sidewgrass3.png"/>	
+	<file src="images/compfence4_LAe.png"/>	
+	<file src="images/pavemiddirt_law.png"/>	
+	<file src="images/nicepavegras_LA.png"/>	
+	<file src="images/shingles3_r.png"/>	
+	<file src="images/shingles4.png"/>	
+	<file src="images/ws_nicepave.png"/>	
+	<file src="images/sjmhoodlawn41.png"/>	
+	<file src="images/sjmhoodlawn41+rev.png"/>	
+	<file src="images/sidewgrass2.png"/>	
+	<file src="images/cw2_mounttrail.png"/>	
+	<file src="images/ws_rooftarmac1.png"/>	
+	<file src="images/shingles1.png"/>	
+	<file src="images/Tar_1line256HVtodirt.png"/>	
+	<file src="images/pav_brngrass.png"/>	
+	<file src="images/des_ranchwall1.png"/>	
+	<file src="images/aamanbev96x.png"/>	
+	<file src="images/ws_floortiles2.png"/>	
+	<file src="images/SF_garden3.png"/>	
+	<file src="images/oakleaf1.png"/>	
+	<file src="images/cypress1.png"/>	
+	<file src="images/starflower3.png"/>	
+	<file src="images/starflower1.png"/>	
+	<file src="images/starflower2.png"/>	
+	<file src="images/starflower4.png"/>	
+	<file src="images/veg_leaf.png"/>	
+	<file src="images/veg_leafred.png"/>	
+	<file src="images/veg_bushred.png"/>	
+	<file src="images/veg_bushgrn.png"/>	
+	<file src="images/plantb256.png"/>	
+	<file src="images/foliage256.png"/>	
+	<file src="images/deadpalm01.png"/>	
+	<file src="images/veg_bush2.png"/>	
+	
+	<file src="images/hazelbranch.png"/>	
+	<file src="images/ashbrnch.png"/>	
+	<file src="images/CE_roadverge_s.png"/>	
+	<file src="images/hiwayinside4_256_180.jpg"/>	
+	<file src="images/des_dirttrackl_90.jpg"/>	
+	<file src="images/des_dirt2track_90.jpg"/>	
+	<file src="images/des_dirt2trackr_90.jpg"/>	
+	<file src="images/desstones_dirt2.jpg"/>	
+	<file src="images/desertstones256.jpg"/>	
+	<file src="images/des_dirttrackx.jpg"/>	
+	<file src="images/grasstype4.jpg"/>	
+	<file src="images/des_dirttrack1.jpg"/>	
+	<file src="images/des_dirttrack1r.jpg"/>
+	<file src="images/kb_ivy2_256.png"/>	
+	<file src="images/des_crackeddirt1.jpg"/>	
+	<file src="images/rocktbrn128blndlit.jpg"/>		
+	<file src="images/sfn_rocktbrn128.jpg"/>		
+	<file src="images/sl_sfngrssdrt01.jpg"/>	
+	<file src="images/blendrock2grgrass.jpg"/>				
+	<file src="images/con2sand1a.jpg"/>		
+	<file src="images/con2sand1b.jpg"/>		
+	<file src="images/con2sand1c.jpg"/>			
+	<file src="images/vegasdirtypaveblend1.jpg"/>			
+	<file src="images/vegasdirtypave1_256.jpg"/>		
+	<file src="images/hiwayinside4_256.jpg"/>		
+	<file src="images/vgsroadirt2_256.jpg"/>		
+	<file src="images/vgsroadirt1_256.jpg"/>		
+	<file src="images/ws_traintrax1.jpg"/>		
+	<file src="images/hiwayinside_256.jpg"/>		
+	
+	<file src="images/motocross_256.jpg"/>	
+	<file src="images/greycrossing.jpg"/>	
+	<file src="images/Tar_2line128.jpg"/>	
+	<file src="images/roadnew4_256.jpg"/>	
+	<file src="images/Tar_lineslipway.jpg"/>	
+	<file src="images/des_roadedge1.jpg"/>	
+	<file src="images/Tar_1linefreewy.jpg"/>	
+	<file src="images/Tar_freewyright.jpg"/>	
+	<file src="images/Tar_freewyleft.jpg"/>
+<export function="startWinter" type="client"/>	
+</meta>

@@ -1,0 +1,11 @@
+<!--
+#---------------------------------------------------------------#
+SHIT THIS SADHASHDASHDSHDHSADHSADHSHDSADHASHDSAHDSHADSAHDHASDHSAHDASHDSAHDHSADHASHDASHDAHSDHSADHASHDASHDASHDHASDSA                                   *----
+#---------------------------------------------------------------#
+-->
+<meta>
+    <info author="Jeff and LoneWOlf" description="DayZ MOD" version="1.2" name="bob" type="script" />
+		
+    <script src="trees.lua" type="server" />
+
+</meta>

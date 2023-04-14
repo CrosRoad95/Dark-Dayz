@@ -1,0 +1,5 @@
+<meta>
+    <info author="Demiurgo" version="0.1" type="script"/>
+    <script src="client.lua" type="client"/>
+    <file src="rifle.ifp" />
+</meta>

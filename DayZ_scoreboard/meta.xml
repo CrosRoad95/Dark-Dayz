@@ -1,0 +1,7 @@
+<meta>
+    <info author="Unkown, Korea, Johanez" type="script" name="darkdayz.pl - Tab Panel"/>
+
+    <script src="client.lua" type="client" cache="false"/>
+    <script src="languages_c.lua" type="client" cache="false"/>
+    <script src="server.lua" type="server"/>
+</meta>

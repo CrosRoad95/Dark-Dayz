@@ -1,0 +1,7 @@
+<meta>
+    <info author="Korea" description="The-DayZ | Oznaczenia" version="1.0" type="script" />
+	<script src='s.lua' type='server'/>
+	<script src='c.lua' type='client' cache = "false"/>
+	<file src = "Oznaczenie.png"/>
+	<file src = "font.ttf"/>
+</meta>

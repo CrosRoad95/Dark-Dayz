@@ -1,0 +1,16 @@
+<meta>
+    <info author="Johanez07" name="darkdayz.pl - monitor hud" type="script" />
+
+	<script src='c.lua' type='client' cache='false'/>
+	<script src='languages_c.lua' type='client' cache='false'/>
+
+	<file src='textures/thirst.png'/> 
+	<file src='textures/food.png'/> 
+	<file src='textures/blood.png'/> 
+	<file src='textures/LVL.png'/> 
+
+	<file src='textures/bleeding.png'/> 
+	<file src='textures/broken-bone.png'/>
+
+	<file src='textures/stat.png'/>
+</meta>

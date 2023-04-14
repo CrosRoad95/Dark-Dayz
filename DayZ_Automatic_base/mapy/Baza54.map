@@ -1,0 +1,10 @@
+<map edf:definitions="editor_main">
+    <object id="object (drydock1_SFSe01) (1)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2557.7" posY="73.6" posZ="15.6" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (drydock1_SFSe01) (3)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2561.7998" posY="73.09961" posZ="14.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe01) (4)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2552.7" posY="73.8" posZ="15.6" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (drydock1_SFSe01) (5)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2547.7" posY="73.9" posZ="15.6" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (drydock1_SFSe01) (6)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2542.5" posY="74.3" posZ="15.6" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (drydock1_SFSe01) (7)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2541.2" posY="75.4" posZ="14.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock1_SFSe01) (8)" breakable="true" interior="0" alpha="255" model="10841" doublesided="false" scale="1" dimension="0" posX="-2541.1001" posY="75.4" posZ="13.2" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (Streetlamp2) (1)" radius="4.951889" interior="0" model="1231" lodModel="0" posX="-2568.6377" posY="77.17197" posZ="6.0006" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

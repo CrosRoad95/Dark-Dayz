@@ -1,0 +1,6 @@
+<meta>
+    <info author="Korea*" type="script" name="Unbug" version="1.2.2" />
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" cache='false' />
+
+</meta>

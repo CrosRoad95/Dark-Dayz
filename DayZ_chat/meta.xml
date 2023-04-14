@@ -1,0 +1,7 @@
+<meta>
+    <info author="Sniper, Nesty, Korea, Johanez" name="darkdayz.pl - chat script"/>
+	
+	<script src="client.lua" type="client" cache="false"/>
+	<script src="server.lua" type="server" />
+	<script type="server" src="fg_logs.lua"/>
+</meta>

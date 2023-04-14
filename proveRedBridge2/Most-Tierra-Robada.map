@@ -1,0 +1,23 @@
+<map edf:definitions="editor_main">
+    <object id="object (lasntrk3) (1)" breakable="true" interior="0" alpha="255" model="3569" doublesided="true" scale="1" dimension="0" posX="-1061.6" posY="2708.5" posZ="47.5" rotX="0" rotY="0" rotZ="104"></object>
+    <object id="object (lasntrk1) (1)" breakable="true" interior="0" alpha="255" model="3566" doublesided="true" scale="1" dimension="0" posX="-1082" posY="2704.3" posZ="47.5" rotX="0" rotY="0" rotZ="321.75"></object>
+    <object id="object (lasntrk2) (1)" breakable="true" interior="0" alpha="255" model="3568" doublesided="true" scale="1" dimension="0" posX="-1073.8" posY="2699.2" posZ="47.5" rotX="0" rotY="0" rotZ="278"></object>
+    <object id="object (la_fuckcar1) (1)" breakable="true" interior="0" alpha="255" model="3594" doublesided="true" scale="1" dimension="0" posX="-1093.8" posY="2697.6001" posZ="45.5" rotX="0" rotY="0" rotZ="122"></object>
+    <object id="object (la_fuckcar1) (2)" breakable="true" interior="0" alpha="255" model="3594" doublesided="true" scale="1" dimension="0" posX="-1049.2" posY="2709.3999" posZ="45.5" rotX="0" rotY="0" rotZ="293.998"></object>
+    <object id="object (la_fuckcar2) (1)" breakable="true" interior="0" alpha="255" model="3593" doublesided="true" scale="1" dimension="0" posX="-1085.8" posY="2705.7" posZ="45.6" rotX="0" rotY="0" rotZ="120"></object>
+    <object id="object (PROC_RUBBISH_6) (1)" breakable="true" interior="0" alpha="255" model="2675" doublesided="true" scale="1" dimension="0" posX="-1078.8" posY="2710.6001" posZ="45.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PROC_RUBBISH_5) (1)" breakable="true" interior="0" alpha="255" model="2673" doublesided="true" scale="1" dimension="0" posX="-1081.1" posY="2700.6001" posZ="45" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PROC_RUBBISH_5) (2)" breakable="true" interior="0" alpha="255" model="2673" doublesided="true" scale="1" dimension="0" posX="-1060.7998" posY="2713.1006" posZ="45.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (la_fuckcar2) (2)" breakable="true" interior="0" alpha="255" model="3593" doublesided="true" scale="1" dimension="0" posX="-1059" posY="2701.7" posZ="45.6" rotX="0" rotY="0" rotZ="268"></object>
+    <object id="object (la_fuckcar1) (4)" breakable="true" interior="0" alpha="255" model="3594" doublesided="true" scale="1" dimension="0" posX="-1093.8" posY="2704.7" posZ="45.5" rotX="0" rotY="0" rotZ="275.997"></object>
+    <object id="object (PROC_RUBBISH_3) (1)" breakable="true" interior="0" alpha="255" model="2671" doublesided="true" scale="1" dimension="0" posX="-1052.2" posY="2703.8999" posZ="44.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PROC_RUBBISH_1) (1)" breakable="true" interior="0" alpha="255" model="2670" doublesided="true" scale="1" dimension="0" posX="-1061.3" posY="2705.2" posZ="45" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PROC_RUBBISH_2) (1)" breakable="true" interior="0" alpha="255" model="2674" doublesided="true" scale="1" dimension="0" posX="-1063.9" posY="2700.2" posZ="44.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PROC_RUBBISH_7) (1)" breakable="true" interior="0" alpha="255" model="2677" doublesided="true" scale="1" dimension="0" posX="-1075.9" posY="2704.7" posZ="45.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PROC_RUBBISH_2) (2)" breakable="true" interior="0" alpha="255" model="2674" doublesided="true" scale="1" dimension="0" posX="-1089.7" posY="2700.2" posZ="44.9" rotX="0" rotY="0" rotZ="274"></object>
+    <object id="object (PROC_RUBBISH_8) (1)" breakable="true" interior="0" alpha="255" model="2676" doublesided="true" scale="1" dimension="0" posX="-1089.3" posY="2709.6001" posZ="45.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sw_pickupwreck01) (1)" breakable="true" interior="0" alpha="255" model="12957" doublesided="true" scale="1" dimension="0" posX="-1101.9" posY="2697.1001" posZ="45.8" rotX="0" rotY="0" rotZ="97.25"></object>
+    <object id="object (sw_pickupwreck01) (2)" breakable="true" interior="0" alpha="255" model="12957" doublesided="true" scale="1" dimension="0" posX="-1047.2" posY="2703.2" posZ="45.7" rotX="0" rotY="0" rotZ="97.245"></object>
+    <object id="object (DockBarr1_LA) (1)" breakable="true" interior="0" alpha="255" model="3578" doublesided="true" scale="1" dimension="0" posX="-1202.5" posY="2688.2" posZ="45.6" rotX="0" rotY="0" rotZ="284"></object>
+    <object id="object (DockBarr1_LA) (2)" breakable="true" interior="0" alpha="255" model="3578" doublesided="true" scale="1" dimension="0" posX="-965.7002" posY="2715.9004" posZ="45.6" rotX="0" rotY="0" rotZ="267.995"></object>
+</map>

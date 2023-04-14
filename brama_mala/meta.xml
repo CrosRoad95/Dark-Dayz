@@ -1,0 +1,10 @@
+<meta>
+	<info author="autor modelu: Reiji, wykonane dla Machina. Zakazuje się używania go bez zgody autora!" />
+	
+	<script src="replace.lua" type="client" cache="false"/>
+	<file src="najbrama1.txd"/>
+	<file src="najbrama1.dff"/>
+	<file src="najbrama1.col"/>
+
+	
+</meta>

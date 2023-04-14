@@ -1,0 +1,9 @@
+<meta>
+	<script src = "s.lua" type = "server" />
+	<script src = "ZombieFunctions.lua" type = "server" />
+	<script src = "c.lua" type = "client" cache="false" />
+	<script src='ZombieFunctions_C.lua' type='client' cache='false'/>
+	<file src='sounds/zombie_1.mp3'/>
+	<file src='sounds/zombie_2.mp3'/>
+	<file src='sounds/zombie_3.mp3'/>
+</meta>

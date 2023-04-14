@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<style>
+body {
+font-family: Arial;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 4px;
+  transition-duration: 0.5s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+  padding: 8px 14px;
+  transform: scale(1,1.1);
+}
+
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.with_border {
+	border: 4px solid #ccc;
+	margin: 0 0 0 0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+#tablink1ss {
+	position: absolute;
+	left:86.5%;
+}
+
+.with_border {
+	margin-left: 0px;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+#Nazwa_Gracza {
+	position: absolute;
+	left:38%;
+}
+
+#updates_rank { 
+	max-width: 20em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-group {
+  background-color: DodgerBlue; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.btn-group:hover {
+  background-color: DodgerBlue;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: DodgerBlue;
+  color: white;
+}
+
+@keyframes animacjaobrazka1 {
+    0%   {
+		transform: rotate(0deg);
+		animation-timing-function: ease-out;
+		}
+    25%  {
+		transform: rotate(5deg);
+		animation-timing-function: ease-in;
+		}
+    50%  {
+		transform: rotate(0deg);
+		animation-timing-function: ease-out;
+		}
+    75%  {
+		transform: rotate(-5deg);
+		animation-timing-function: ease-in;
+		}
+
+}
+#animacja1{
+	animation-name: animacjaobrazka1;
+    animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.column button {
+	font-size: 12px;
+}
+
+</style>
+</head>
+<body>
+<div class="tab">
+	<button class="tablinks" id ="defaultOpen" onclick="openCity(event, 'Informacje')"><div class = "rotate_anim">Informacje</div></button>
+	<button class="tablinks" onclick="openCity(event, 'Regulamin')"><div class = "rotate_anim">Regulamin</div></button>
+	<button class="tablinks" onclick="openCity(event, 'Ranking')"><div class = "rotate_anim">Ranking</div></button>
+	<button class="tablinks" onclick="openCity(event, 'GPS')"><div class = "rotate_anim">GPS</div></button>
+	<button class="tablinks" onclick="openCity(event, 'VIP')"><div class = "rotate_anim">PP</div></button>
+	<button class="tablinks" onclick="openCity(event, 'Dodatki')"><div class = "rotate_anim">Dodatki</div></button>
+	<button class="tablinks" onclick="openCity(event, 'Poradnik')"><div class = "rotate_anim">Poradnik</div></button>
+	
+	<button class="tablinks" onclick="openCity(event, 'Celownik')"><div class = "rotate_anim">Celownik</div></button>
+	
+	<!-- <button class="tablinks" onclick="openCity(event, 'Skin_grupowy')">Skiny grupowe</button>
+	<button class="tablinks" onclick="openCity(event, 'Render')">Render</button>
+	<button class="tablinks" onclick="openCity(event, 'Bazy')">Bazy</button> -->
+	
+  <!--
+	<button class="tablinks" onclick="openCity(event, 'Przedmioty')">Przedmioty</button>
+	<button class="tablinks" onclick="openCity(event, 'Auta')">Pojazdy</button>
+	<button class="tablinks" onclick="openCity(event, 'Aktualizacje')">Aktualizacje</button>
+  -->
+</div>
+
+<div id='Render' class='tabcontent'>
+	<center>
+		<h3>Render</h3>
+		<button class='btn-group' onclick='renderScroll()'>Pokaż suwaki</button>
+		<h3>Odległość renderowania obiektów</h3>
+		<br/>
+		<br/>
+		<h3>Odłegłość renderowania mgły</h3>
+		<br/>
+		<br/>
+	</center>
+</div>
+<div id="Celownik" class="tabcontent">
+	<center>
+		<h3>Celowniki</h3> 
+		<button class="btn-group" onclick="selectCrosshair('default')">Ustaw domyślny</button>
+		<br/>
+		<br/>
+		<div class="row">
+		  <div class="column">
+			<img src="celowniki/1.png" alt="Snow" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(1)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/2.png" alt="Forest" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(2)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/3.png" alt="Mountains" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(3)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/4.png" alt="Mountains" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(4)">Wybierz</button>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="column">
+			<img src="celowniki/6.png" alt="Snow" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(6)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/7.png" alt="Forest" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(7)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/8.png" alt="Mountains" style="width:50%; background-color: black;">
+			<br/>
+			<button onclick="selectCrosshair(8)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/9.png" alt="Mountains" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(9)">Wybierz</button>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="column">
+			<img src="celowniki/11.png" alt="Snow" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(11)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/12.png" alt="Forest" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(12)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/13.png" alt="Mountains" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(13)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/14.png" alt="Mountains" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(14)">Wybierz</button>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="column">
+			<img src="celowniki/16.png" alt="Snow" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(16)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/17.png" alt="Forest" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(17)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/18.png" alt="Mountains" style="width:50%; background-color: black;">
+			<br/>
+			<button onclick="selectCrosshair(18)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/19.png" alt="Mountains" style="width:50%; background-color: black;">
+			<br/>
+			<button onclick="selectCrosshair(19)">Wybierz</button>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="column">
+			<img src="celowniki/21.png" alt="Snow" style="width:50%; background-color: black;">
+			<br/>
+			<button onclick="selectCrosshair(21)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/22.png" alt="Forest" style="width:50%; background-color: black;">
+			<br/>
+			<button onclick="selectCrosshair(22)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/23.png" alt="Mountains" style="width:50%; background-color: black;">
+			<br/>
+			<button  onclick="selectCrosshair(23)">Wybierz</button>
+		  </div>
+		  <div class="column">
+			<img src="celowniki/24.png" alt="Mountains" style="width:50%; background-color: black;">
+			<br/>
+			<button onclick="selectCrosshair(24)">Wybierz</button>
+		  </div>
+		</div>
+	</center>
+</div>
+
+<div id="Dodatki" class="tabcontent">
+	<center>
+		<div>
+			<b>Armybox Militarny:</b>
+			<br/>
+			<b>Cena: 21 PP</b>
+			<br/>
+			<b>Wygasa po 30 dniach</b>
+			<br/>
+			<img src= "armybox.jpg"/>
+			<br/>
+			<button class="btn-group" onclick="buyArmybox('Militarny',21)">Kup</button>
+			<hr/>
+		</div>
+		<div>
+			<b>Armybox Medyczny:</b>
+			<br/>
+			<b>Cena: 14 PP</b>
+			<br/>
+			<b>Wygasa po 30 dniach</b>
+			<br/>
+			<img src= "armybox.jpg"/>
+			<br/>
+			<button class="btn-group" onclick="buyArmybox('Medyczny',14)">Kup</button>
+			<hr/>
+		</div>
+		<div>
+			<b>Armybox Produkty:</b>
+			<br/>
+			<b>Cena: 14 PP</b>
+			<br/>
+			<b>Wygasa po 30 dniach</b>
+			<br/>
+			<img src= "armybox.jpg"/>
+			<br/>
+			<button class="btn-group" onclick="buyArmybox('Produkty',14)">Kup</button>
+			<hr/>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<center><h3 style='color:red;'>Max 2 spawny na baze</h3></center>
+		<div class="custom-select" style="width:200px;">
+			<select id="kupnoRespu" onclick="getRanking('12312')">
+				<option>Wybierz spawn:</option>
+				<option value="Spawn Bullet [1D]">Spawn Bullet 1D | 3.5PP </option>
+				<option value="Spawn Bullet [3D]">Spawn Bullet 3D | 10.5PP</option>
+				<option value="Spawn Bullet [7D]">Spawn Bullet 7D | 17.5PP</option>
+				<option value="Spawn Bullet [30D]">Spawn Bullet 30D | 42PP</option>
+				<option value="Spawn Dodo [1D]">Spawn Dodo 1D | 5.6PP </option>
+				<option value="Spawn Dodo [3D]">Spawn Dodo 3D | 14PP</option>
+				<option value="Spawn Dodo [7D]">Spawn Dodo 7D | 35PP</option>
+				<option value="Spawn Dodo [30D]">Spawn Dodo 30D | 59.5PP</option>
+				<option value="Spawn Infernus [1D]">Spawn Infernus 1D | 10.5PP </option>
+				<option value="Spawn Infernus [3D]">Spawn Infernus 3D | 21PP</option>
+				<option value="Spawn Infernus [7D]">Spawn Infernus 7D | 42PP</option>
+				<option value="Spawn Infernus [30D]">Spawn Infernus 30D | 84PP</option>
+				<option value="Spawn Bullet [2U]">Spawn Bullet 2U | 5PP</option>
+		  </select>
+	  </div>
+	  <br/>
+	  <button class="btn-group" onclick="buyResp()">Kup spawn</button>
+	  <br/>
+	  <br/>
+	  <br/>
+	  <br/>
+	  <br/>
+	  <br/>
+	</center>
+</div>
+
+<div id="Auta" class="tabcontent">
+	<table id = "Pojazdy_table" style="width:100%"></table>
+</div>
+
+<div id="Informacje" class="tabcontent">
+  <center>
+		<br/>
+		<img id="animacja1" src="logo.png" width="75%" height="75%">
+		<br/>
+                <text><b style = "color:red">Zalożyciel:</b> twoj nick</text>
+		<br/>
+		<text><b style = "color:red">Forum serwera:</b> twoje forum</text>
+		<br/>
+		<text><b style = "color:red">Twórca GMA:</b> twoj nick</text>
+		<br/>
+		<text><b style = "color:red" >Pojazdów na mapie: </b> 163</text>
+		<br/>
+		<text><b style = "color:red" >Restart itemów: </b> Co 3 godziny</text>
+	</center>
+</div>
+
+<div id="Poradnik" class="tabcontent">
+  <center>
+		<h2>VIP</h2>
+		VIP kosztuje 10 PP, możesz go kupić w panelu F4
+		<br/>
+		<h4 style="color: red;">Zestawy pod F4:</h4>
+		<li><b>Zestaw mechanika</b> - Daje 4 koła, zestaw narzędzi, silnik, zbiornik paliwa</li>
+		<li><b>Zestaw prowiantu</b> - Daje 5 mlek, 5 pizzy</li>
+		<li><b>Zestaw medyczny</b> - Daje 2 apteczki medyczne, 3 bandaże, 2 morfiny, środek przeciwbólowy, torbe z krwią</li>
+		<li><b>Plecak</b> - Plecak 32 slotowy</li>
+		<br/>
+		<h2>Klawiszologia</h2>
+		<b>Pod F1 znajduje sie panel grup.</b>
+		<br/>
+		<b>Pod F2 znajduje sie panel baz.</b>
+		<br/>
+		<b>Pod F3 znajduje sie panel informacyjny.</b>
+		<br/>
+		<b>Pod F4 znajduje sie panel vipa.</b>
+		<br/>
+		<b>Pod J znajduje sie inwentaż.</b>
+		<br/>
+		<b>Pod X znajduję się globalny czat.</b>
+		<br/>
+		<b>Pod Y znajduje się czat grupowy.</b>
+		<br/>
+		<b>Pod F6 znajduje sie panel do wyboru umiejetnosc za wbity lvl.</b>
+		<br/>
+		<h2>Komendy</h2>
+		<b>/skin.grupowy</b> -- Zakłada nam skina grupowego o ile takowego mamy
+		</br>
+		<b>/pw [nick] [treść]</b> -- Wysyła prywatną wiadomość do danego gracza
+		</br>
+		<b>/pp.przelej [nick] [ilość]</b> -- Przelewa Punkty Premium do danego gracza
+		</br>
+		<b>/gp.przelej [nick] [ilośc]</b> -- Przelewa Punkty Gry do danego gracza
+		</br>
+		<b>/armybox.info</b> -- Pokazuje ile mamy armyboxów
+		</br>
+		<b>/armybox.postaw</b> -- Stawia armybox'a o ile jesteśmy w bazie
+		</br>
+		<b>/render.distance [wartość]</b> -- Ustawia dystans rysowania na podaną wartość
+		</br>
+		<b>/baza.open [id bazy] [numer bramy]</b> -- Otwiera/zamyka brame
+		</br>
+		<b>/bind [KLAWISZ] oznaczanie</b> -- tworzy bind, na ktorym masz oznaczanie (defaultowo klawisz M + przycelowanie z broni)
+		</br>
+		</br>
+		<h2>Legenda</h2>
+		<img src = "ikony/pociag_armybox.jpg"> - Traincrash</img>
+		<br/>
+		<img src = "ikony/air.jpg"> - Helicrash</img>
+		<br/>
+		<img src = "ikony/boat.jpg"> - Boat crash</img>
+		<br/>
+		<img src = "ikony/baza_niekupiona.jpg"> - Baza na sprzedaż</img>
+		<br/>
+		<img src = "ikony/kupiona_baza.jpg"> - Baza kupiona</img>
+		<br/>
+		<img src = "ikony/baza.jpg"> - Oznakowanie bazy do której mamy dostęp</img>
+		<br/>
+		<img src = "ikony/Magazyn.jpg"> - W środku znajduje się randomowe auto</img>
+		<br/>
+		<img src = "ikony/Oznaczenie_teammate.jpg"> - Oznacza pozycję gdzie zginął gracz z teamu</img>
+		<br/>
+		<img src = "ikony/Sklepikarz.jpg"> - Sklep z przedmiotami</img>
+		<br/>
+		<img src = "ikony/Handlarz_aut.jpg"> - Handlarz aut</img>
+		<br/>
+		<img src = "ikony/zombotech.jpg"> - Zombotech</img>
+		<br/>
+		<img src = "ikony/priv_tenty.jpg"> - Prywatne namioty</img>
+		<br/>
+		<img src = "ikony/BS.jpg"> - Greenzone</img>
+		<br/>
+		<img src = "ikony/Wyspamagow.jpg"> - Wyspa magów</img>
+		<br/>
+		<img src = "ikony/wyspa.jpg"> - Wyspa</img>
+		<br/>
+		<img src = "ikony/Militarka.jpg"> - Militarka</img>
+		<br/>
+		<img src = "ikony/Militarka_z_radarem.jpg"> - Militarka z radarem</img>
+		<br/>
+		<img src = "ikony/pytajnik.jpg"> - kopalnia, w której znajduje się Hard Boss</img>
+	</center>
+</div>
+
+<div id="Ranking" id = 'test123123' class="tabcontent">
+  <center>
+		<h3>Ranking Graczy!</h3> 
+		<h3 id = "Twoje_miejsce"></h3>
+	  <div class="custom-select" style="width:200px;">
+			<select id="mySelect" onclick="getRanking('12312')">
+				<option>Select option:</option>
+				<option value="TotalMurders">Morderstwa</option>
+				<option value="TotalZombieKilled">Zabie zombie</option>
+				<option value="GP">GP</option>
+				<option value="TotalAliveTime">Przeżyty czas</option>
+		  </select>
+	  </div>
+	  </center>
+	  <br/>
+	  
+	  <table id = "321312" style="width:100%"></table>
+	
+</div>
+
+
+<div id="GPS" class="tabcontent">
+  <center>
+		<h3>Ustaw kanał GPS!</h3> 
+		<input id="GPS_text" maxlength='6' type='text'/></input>
+		<br/>
+		<br/>
+		<button class="btn-group" onclick="offGPS()">Opuść kanał</button>
+		<button class="btn-group" onclick="setGPS()">Ustaw kanał</button>
+		<br/>
+	</center>
+</div>
+
+<div id="Regulamin" class="tabcontent">
+	<div algin = "center">
+		<center><h3>Regulamin serwera</h3></center><br/>
+		<b style="color: red;">Zakazy:</b><br/>
+		1.Administracja serwera ma zawsze racje, nie spieraj sie z nia. <br/>
+		2.Zakaz uzywania programów wspomagajacych lub ulatwiajacych gre.<br/>
+		3.Zakaz kopiowania przedmiotów.<br/>
+		4.Zakaz wykorzystywania bugów/bledów serwera na wlasna korzysc.<br/>
+		5.Zakaz wykorzystywania bledu/bugu serwera zeby okrasc baze.<br/>
+		6.Zakaz wyzywania, obrazania graczy.<br/>
+		7.Zakaz wysylania danych prywatnych danej osoby(Imienia, nazwiska itp, itd).<br/>
+		8.Zakaz nekania graczy.<br/>
+		9.Zakaz naduzywania wulgaryzmów.<br/>
+		10.Zakaz uzywania obrazliwego, wulgarnego nicku.<br/>
+		11.Zakaz nadmiernego prowokowania innego gracza.<br/>
+		12.Zakaz reklamy, wysylania linków, IP serwerów konkurencyjnych na chacie globalnym.<br/>
+		13.Zakaz spamowania.<br/>
+		14.Zakaz oskarzania administracji serwera o robienie ,,faworki"<br/>
+		15.Wszelki zakaz obrazania wyzywania Administracji serwera.<br/>
+		16.Zakaz proszenia administracji o przedmioty lub pojazdy.<br/>
+		17.Zakaz tworzenia nazw grup wulgarnych, obrazliwych.<br/>
+		18.Zakaz spierania sie czy dana kara nalozona na danego gracza jest odpowiednia.<br/>
+		19.Zakazu tzw. scamu (Nie obejmuje baz)!<br/>
+		20.Zakaz sprzedawnia PP na czarno!<br/>
+		21.Zakaz barykadowania, blokowania innych baz namiotami, workami z piaskiem oraz drutami!<br/>
+		22.Zakaz bugowania broni w zielonej strefie!<br/>
+<br/>
+		<b style="color: red;">Ogólne:</b><br/>
+		-Nie zgloszenie administracji bledu lub bugu serwera który mozna wykorzystac na wlasny uzytek skutkuje banem.<br/>
+		-Przeklinanie jest dozwolone lecz z umiarem i opanowaniem.<br/>
+		-Nie szukaj zaczepki.<br/>
+		-Nie prowokuj innego gracza do wyzywania.<br/>
+		-Jezeli uwazasz, ze dana kara jest niesluszna napisz odwolanie.<br/>
+		-Wlascicielami serwera sa -, Joker w razie jakiegokolwiek problemu kieruj sie do nich.<br/>
+		-Administracja serwera ma prawo nadac dluzszy czas kary w sytuacji, kiedy gracz, np.:<br/>
+		lamal regulamin nadmiernie, zlamal zbyt wiele punktów regulaminu lub, gdy do zlamania regulaminu doszly inne, powazne powody!<br/>
+		-Administracja serwera ma prawo przed nadaniem bana zastosowac innego rodzaju kary, np. kick lub mute.<br/>
+		-Administracja serwera ma prawo nadac kare bez ostrzezenia slownego, niezaleznie od konsekwencji.<br/>
+		-Nie znajomosc regulaminu nie zwalnia cie z nieprzestrzegania go.<br/>
+<br/>
+		<b style="color: red;">Taryfikator Kar:</b><br/>
+		1.Mute do 7 dni / Ban do 7 dni.<br/>
+		2.Permanentny ban.<br/>
+		3.Ban 7 dni / Ban permanentny oraz wyczyszczenie bzy.<br/>
+		4.Ban 7 dni / Ban permanentny.<br/>
+		5.Ban 7 dni / Ban permanentny.<br/>
+		6.Mute do 7 dni / Ban do 7 dni.<br/>
+		7.Ban do 14 dni / Ban permanentny.<br/>
+		8.Mute do 7 dni / Ban do 7 dni.<br/>
+		9.Mute do 7 dni / Ban do 7 dni.<br/>
+		10.Ban do 7 dni.<br/>
+		11.Mute do 7 dni / Ban do 7 dni.<br/>
+		12.Mute do 7 dni.<br/>
+		13.Mute do 7 dni.<br/>
+		14.Mute do 7 dni / Ban do 7 dni.<br/>
+		15.Mute do 7 dni / Ban do 7 dni.<br/>
+		16.Ban 12 godzin.<br/>
+		17.Ban do 14 dni.<br/>
+		18.Mute do 7 dni / Ban do 7 dni.<br/>
+		19.Ban 7 dni / Ban permanentny.<br/>
+		20.Ban permanentny BMA, osoby które kupiły PP będą miały zrestartowane konto<br/>
+		21.Ban 7-14 dni.M<br/>
+		22.Ban 7-31 dni.
+<br/>
+		<b style="color: red;">@copyright The-DayZ.<br/>
+		Regulamin moze ulec zmianie w kazdej chwili.<br/>
+		</b>
+
+			
+	</div>
+</div>
+
+<div id="VIP" class="tabcontent">
+  <center>
+		<h3>Wybierz usługę!</h3> 
+		<label class="container">
+		  <input id="kupno_1" type="radio" checked="checked" name="radio">Numer: 7255 | Treść: AA.SP | Koszt: 2,46zł | Ptrzymasz PP: 1
+		  <br/>
+		  <input id="kupno_2" type="radio" checked="checked" name="radio">Numer: 7455 | Treść: AA.SP | Koszt: 4,92zł | Otrzymasz PP: 3
+		  <br/>
+		  <input id="kupno_3" type="radio" checked="checked" name="radio">Numer: 7636 | Treść: AA.SP | Koszt: 7,38zł | Otrzymasz PP: 6
+		  <br/>
+		  <input id="kupno_4" type="radio" checked="checked" name="radio">Numer: 91955 | Treść: AA.SP | Koszt: 23,37zł | Otrzymasz PP: 15
+		  <br/>
+		  <input id="kupno_5" type="radio" checked="checked" name="radio">Numer: 92555 | Treść: AA.SP | Koszt: 30,75zł | Otrzymasz PP: 20
+		  <br/>
+		  <input id="Wpisz_kod" maxlength='30' value="Wpisz_kod" type='text'/></input>
+		  <button class="btn-group" onclick="sprawdzkod()">Sprawdz kod</button>
+		</label>
+	</center>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  console.log(evt);
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+function sprawdzkod() {
+	let cost = null;
+	let text = document.getElementById("Wpisz_kod").value
+	if (document.getElementById("kupno_1").checked == true) {
+		cost = 2;
+	} else if (document.getElementById("kupno_2").checked == true) {
+		cost = 4;
+	} else if (document.getElementById("kupno_3").checked == true) {
+		cost = 6;
+	} else if (document.getElementById("kupno_4").checked == true) {
+		cost = 19;
+	} else if (document.getElementById("kupno_5").checked == true) {
+		cost = 25;
+	} 
+	mta.triggerEvent("TryCode",text,cost);
+}
+
+function buyArmybox(typ,cena) {
+	mta.triggerEvent("Client_BuyArmybox",typ,cena);
+	mta.triggerEvent("Client_showScroll");
+}
+
+function selectCrosshair(typ) {
+	mta.triggerEvent("setCelownik",typ);
+}
+
+function renderScroll() {
+	mta.triggerEvent('Client_renderScroll');
+}
+
+function showScroll() {
+	mta.triggerEvent('Client_showScroll');
+}
+
+function getRanking() {
+  var x = document.getElementById("mySelect").value;
+  
+  if (x == "TotalMurders" || x == "TotalZombieKilled") {
+	mta.triggerEvent("Ustaw-Se-Ranking",x);
+  } else {
+		document.getElementById('321312').innerHTML = "";
+	}
+}
+
+function buyResp() {
+	var x = document.getElementById("kupnoRespu").value;
+	if (x == "Wybierz spawn:") {
+	} else {
+		mta.triggerEvent("Buy-RespPojazdu",x);
+	}
+}
+function setGPS() {
+
+	var x = document.getElementById("GPS_text").value ;
+	mta.triggerEvent("html_Ustaw_GPS",x);
+
+}
+
+function offGPS() {
+	mta.triggerEvent("opusc-gps");
+}
+
+var x, i, j, selElmnt, a, b, c;
+/* Look for any elements with the class "custom-select": */
+x = document.getElementsByClassName("custom-select");
+for (i = 0; i < x.length; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  /* For each element, create a new DIV that will act as the selected item: */
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /* For each element, create a new DIV that will contain the option list: */
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 1; j < selElmnt.length; j++) {
+    /* For each option in the original select element,
+    create a new DIV that will act as an option item: */
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /* When an item is clicked, update the original select box,
+        and the selected item: */
+        var y, i, k, s, h;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < s.length; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+			let gowno_psie = 0;
+			if (i == 1) {
+				gowno_psie = "TotalMurders";
+			} else if (i == 2) {
+				gowno_psie = "TotalZombieKilled";
+			} else if (i == 3) {
+				gowno_psie = "GP";
+			} else {
+				gowno_psie = "alivetimetotal";
+			}
+			mta.triggerEvent("Ustaw-Se-Ranking",gowno_psie);
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            for (k = 0; k < y.length; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+    /* When the select box is clicked, close any other select boxes,
+    and open/close the current select box: */
+	document.getElementById('321312').innerHTML = "";
+    e.stopPropagation();
+    closeAllSelect(this);
+    this.nextSibling.classList.toggle("select-hide");
+    this.classList.toggle("select-arrow-active");
+  });
+}
+document.getElementById("defaultOpen").click();
+function closeAllSelect(elmnt) {
+  /* A function that will close all select boxes in the document,
+  except the current select box: */
+  var x, y, i, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  for (i = 0; i < y.length; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < x.length; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+
+/* If the user clicks anywhere outside the select box,
+then close all select boxes: */
+document.addEventListener("click", closeAllSelect);
+
+
+</script>
+   
+</body>
+</html> 

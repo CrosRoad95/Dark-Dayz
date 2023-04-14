@@ -1,0 +1,10 @@
+<meta>
+    <info author="Korea" description="MTA:DayZ - Vehicle" version="1.0" type="script" />
+	<script src='addons.lua' type='server'/>
+	<script src='addons_c.lua' type='client' cache='false'/>
+	<file src='image/white.png'/>
+	<file src='font.ttf'/>
+	<file src='hit.wav'/>
+	<export function = "getNazwaSerwera" type = "client"/>
+	<export function = "getNazwaSerwera" type = "server"/>
+</meta>

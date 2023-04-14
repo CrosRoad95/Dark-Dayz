@@ -1,0 +1,5 @@
+<meta>
+    <info author="Kamzo" type="script" name="[Last DayZ] Zapisywanie pozycji" version="1.0" />
+	
+	<script src="lastz_admin_pozycje_s.lua" />
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+	<info name="Podmianka eleganta" version="3.0" type="script" />
+	<file src="elegant.txd" />
+	<file src="elegant.dff" />
+	<script type="client" src="elegant.lua" />
+</meta>

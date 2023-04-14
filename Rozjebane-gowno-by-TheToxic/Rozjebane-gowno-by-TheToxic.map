@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <object id="object (demolish4_SFXRF) (3)" breakable="true" interior="0" alpha="255" dimension="0" model="3887" scale="1" doublesided="false" collisions="true" posX="1043.7" posY="2434" posZ="17.2" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (demolish1_SFXRF) (8)" breakable="true" interior="0" alpha="255" dimension="0" model="3866" scale="1" doublesided="false" collisions="true" posX="1018.3" posY="2452.1001" posZ="17.2" rotX="0" rotY="0" rotZ="3.456"></object>
+</map>

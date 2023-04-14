@@ -1,0 +1,22 @@
+<meta>
+	
+	<script src = "s.lua"/>
+	<script src = "c.lua" type = "client" cache = "false"/>
+	
+
+	
+	<file src = "model/tree.dff"/>
+	<file src = "model/tree.txd"/>
+	<file src = "model/present.dff"/>
+	<file src = "model/present.txd"/>
+	<file src = "model/santa.dff"/>
+	<file src = "model/santa.txd"/>
+	
+	
+	<file src = "fx/shader.fx"/>
+	
+	<file src = "i/snow.png"/>
+	<file src = "i/icon.png"/>
+	
+	<include resource = "DayZ_customBlips"/>
+</meta>
